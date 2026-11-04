@@ -180,4 +180,4 @@ Development source and its Git history are kept separately. The JavaScript insid
 
 
 
-[Website](https://xhthc.github.io/) · [Privacy policy](https://xhthc.github.io/privacy.html)
+[Website](https://noizworks.github.io/medialatch/) · [Privacy policy](https://noizworks.github.io/privacy.html)
