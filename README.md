@@ -180,4 +180,4 @@ DRM, эфиры, универсальная загрузка HLS/DASH, прои�
 
 
 
-[Сайт](https://xhthc.github.io/) · [Политика конфиденциальности](https://xhthc.github.io/privacy.html)
+[Сайт](https://noizworks.github.io/medialatch/) · [Политика конфиденциальности](https://noizworks.github.io/privacy.html)
