@@ -4,9 +4,9 @@
 
 [![Chrome Web Store — Install](https://img.shields.io/badge/Chrome_Web_Store-Install-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh)
 
-[![Stars](https://img.shields.io/github/stars/xhthc/MediaLatch?style=for-the-badge&color=22D3EE)](https://github.com/xhthc/MediaLatch/stargazers)
-[![Release 3.0.7](https://img.shields.io/badge/release-3.0.7-A78BFA?style=for-the-badge)](https://github.com/xhthc/MediaLatch/releases/tag/v3.0.7)
-[![Chromium](https://img.shields.io/badge/Chromium-120%2B-22D3EE?style=for-the-badge&logo=googlechrome&logoColor=white)](https://github.com/xhthc/MediaLatch)
+[![Stars](https://img.shields.io/github/stars/NoizWorks/MediaLatch?style=for-the-badge&color=22D3EE)](https://github.com/NoizWorks/MediaLatch/stargazers)
+[![Release 3.0.7](https://img.shields.io/badge/release-3.0.7-A78BFA?style=for-the-badge)](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.0.7)
+[![Chromium](https://img.shields.io/badge/Chromium-120%2B-22D3EE?style=for-the-badge&logo=googlechrome&logoColor=white)](https://github.com/NoizWorks/MediaLatch)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-10B981?style=for-the-badge)](docs/PRIVACY.md)
 [![Email](https://img.shields.io/badge/Email-Contact-64748B?style=for-the-badge)](mailto:always1337@vk.com)
 [![Boosty](https://img.shields.io/badge/Boosty-Support-FF6A00?style=for-the-badge&logo=boosty&logoColor=white)](https://boosty.to/fs0x1337)
@@ -19,12 +19,12 @@
 <p align="center"><img src="assets/readme/divider.svg?v=violet-loop-2" width="1120" alt=""></p>
 
 > [!IMPORTANT]
-> This repository contains MediaLatch documentation and packaged builds. Development source is private. **[Stable version 3.0.7](https://github.com/xhthc/MediaLatch/releases/tag/v3.0.7)** includes minified CRX and ZIP packages, separate checksums and a build file inventory.
+> Download MediaLatch here or read the documentation. Development source lives in a private repository. **[Stable version 3.0.7](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.0.7)** includes minified CRX and ZIP packages, separate checksums and a build file inventory.
 
 > [!NOTE]
 > **In 3.0.7:** Google Drive and Yandex Disk, separate saving profiles, sidebar cloud capacity, local/cloud inline actions, shared naming rules and popup/motion fixes. [Project status](docs/STATUS.md) · [Cloud setup](docs/CLOUD.md).
 
-To update an unpacked installation, finish downloads, replace files in its existing folder with ZIP 3.0.7 and click Reload for MediaLatch on the extensions page. Keep the extension installed. A GitHub release does not establish Chrome Web Store publication.
+To update an unpacked installation, finish downloads, replace files in its existing folder with ZIP 3.0.7 and click Reload for MediaLatch on the extensions page. Keep the extension installed. Chrome Web Store handles updates for Store installations.
 
 ## ⚡ About
 
@@ -38,7 +38,7 @@ Configure folders, names for new files, notices and optional statistics. No comp
 
 <p align="center"><img src="assets/readme/install-en.svg?v=violet-loop-zip-3" width="1120" alt="Packaged ZIP and CRX: Releases, SHA-256 and browser installation policies"></p>
 
-Download **[ZIP 3.0.7](https://github.com/xhthc/MediaLatch/releases/download/v3.0.7/MediaLatch-3.0.7.zip)** for loading the unpacked extension, or [CRX 3.0.7](https://github.com/xhthc/MediaLatch/releases/download/v3.0.7/MediaLatch-3.0.7.crx) where browser policies permit. Each format has its own checksum: [ZIP SHA-256](https://github.com/xhthc/MediaLatch/releases/download/v3.0.7/MediaLatch-3.0.7.zip.sha256), [CRX SHA-256](https://github.com/xhthc/MediaLatch/releases/download/v3.0.7/MediaLatch-3.0.7.crx.sha256). [Build provenance](https://github.com/xhthc/MediaLatch/releases/download/v3.0.7/MediaLatch-3.0.7.provenance.json) describes the same 112 files in both packages. [All releases](https://github.com/xhthc/MediaLatch/releases).
+Download **[ZIP 3.0.7](https://github.com/NoizWorks/MediaLatch/releases/download/v3.0.7/MediaLatch-3.0.7.zip)** for loading the unpacked extension, or [CRX 3.0.7](https://github.com/NoizWorks/MediaLatch/releases/download/v3.0.7/MediaLatch-3.0.7.crx) where browser policies permit. Each format has its own checksum: [ZIP SHA-256](https://github.com/NoizWorks/MediaLatch/releases/download/v3.0.7/MediaLatch-3.0.7.zip.sha256), [CRX SHA-256](https://github.com/NoizWorks/MediaLatch/releases/download/v3.0.7/MediaLatch-3.0.7.crx.sha256). [Build provenance](https://github.com/NoizWorks/MediaLatch/releases/download/v3.0.7/MediaLatch-3.0.7.provenance.json) describes the same 112 files in both packages. [All releases](https://github.com/NoizWorks/MediaLatch/releases).
 
 For Chrome, use the [MediaLatch Chrome Web Store listing](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh). Browser and enterprise policies restrict self-signed CRX installation. The store version is updated separately from GitHub.
 
@@ -164,11 +164,11 @@ MediaLatch has no backend or telemetry. Downloads contact the selected site, ser
 
 Page notices show a short download result. Folder grants and local paths stay private. A cloud save sends the selected file, its name and folder layout directly to the chosen provider. You can export reports and diagnostics manually; review the contents before sharing. HTTP/HTTPS permissions let the extension find selected media across sites. See the [privacy policy and permission explanations](docs/PRIVACY.md).
 
-Report bugs, problems and vulnerabilities to [always1337@vk.com](mailto:always1337@vk.com) or [Issues](https://github.com/xhthc/MediaLatch/issues). Send vulnerability details and sensitive data by email. See the [Security Policy](SECURITY.md) for what to include and how to test.
+Report bugs, problems and vulnerabilities to [always1337@vk.com](mailto:always1337@vk.com) or [Issues](https://github.com/NoizWorks/MediaLatch/issues). Send vulnerability details and sensitive data by email. See the [Security Policy](SECURITY.md) for what to include and how to test.
 
 ## ☕ Support the project
 
-Support development on [Boosty](https://boosty.to/fs0x1337). Send questions and feedback through [Issues](https://github.com/xhthc/MediaLatch/issues) or [email](mailto:always1337@vk.com).
+Support development on [Boosty](https://boosty.to/fs0x1337) or [DonationAlerts](https://dalink.to/fs0x1337). Send questions and feedback through [Issues](https://github.com/NoizWorks/MediaLatch/issues) or [email](mailto:always1337@vk.com).
 
 ## 📜 License
 
@@ -180,4 +180,4 @@ Development source and its Git history are kept separately. The JavaScript insid
 
 
 
-[Website](https://noizworks.github.io/medialatch/) · [Privacy policy](https://noizworks.github.io/privacy.html)
+[Website](https://noizworks.is-a.dev/medialatch/) · [Privacy policy](https://noizworks.is-a.dev/privacy.html)

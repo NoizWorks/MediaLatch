@@ -2,7 +2,7 @@
 
 ## 3.0.7
 
-Stable GitHub release with verified owner-signed minified CRX and matching runtime ZIP. Chrome Web Store rejected draft 3.0.7 on 2026-10-31 for excessive site keywords (Yellow Argon). Revised English and Russian descriptions remove the lists; resubmission and approval remain separate.
+Stable GitHub release with verified owner-signed minified CRX and matching runtime ZIP. The Chrome Web Store draft was rejected on 2026-10-31 for excessive site keywords (Yellow Argon). The public Store listing shows 3.0.7 as of 2026-11-05. OAuth branding for `noizworks.is-a.dev` is under review.
 
 ### Русский
 

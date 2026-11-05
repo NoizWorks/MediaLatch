@@ -1,6 +1,6 @@
 # Privacy policy
 
-Effective date: 2026-10-31. Product: MediaLatch. Maintainer: [xhthc/MediaLatch](https://github.com/xhthc/MediaLatch). Questions and issues: [GitHub Issues](https://github.com/xhthc/MediaLatch/issues).
+Effective date: 2026-10-31. Product: MediaLatch. Maintainer: [NoizWorks/MediaLatch](https://github.com/NoizWorks/MediaLatch). Questions and issues: [GitHub Issues](https://github.com/NoizWorks/MediaLatch/issues).
 
 ## Build scope
 
@@ -98,6 +98,6 @@ Optional publication-date filename tokens use proven X post timestamps or matchi
 
 ## Contact / Контакты
 
-Report privacy questions, bugs or vulnerabilities by [email](mailto:always1337@vk.com) or [Issues](https://github.com/xhthc/MediaLatch/issues). Send sensitive vulnerability details by email. Review and redact diagnostics before sharing.
+Report privacy questions, bugs or vulnerabilities by [email](mailto:always1337@vk.com) or [Issues](https://github.com/NoizWorks/MediaLatch/issues). Send sensitive vulnerability details by email. Review and redact diagnostics before sharing.
 
-По вопросам приватности, багам и уязвимостям: [почта](mailto:always1337@vk.com) или [Issues](https://github.com/xhthc/MediaLatch/issues). Чувствительные подробности отправляйте на почту; перед отправкой проверьте отчёт.
+По вопросам приватности, багам и уязвимостям: [почта](mailto:always1337@vk.com) или [Issues](https://github.com/NoizWorks/MediaLatch/issues). Чувствительные подробности отправляйте на почту; перед отправкой проверьте отчёт.

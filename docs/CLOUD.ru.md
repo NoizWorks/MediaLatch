@@ -14,6 +14,8 @@
 
 ## Что нужно сделать владельцу проекта
 
+Для проверки OAuth укажите домен `noizworks.is-a.dev`, [страницу MediaLatch](https://noizworks.is-a.dev/medialatch/) и [политику конфиденциальности](https://noizworks.is-a.dev/privacy.html). Адрес возврата зависит от ID установленного расширения.
+
 ### 1. Узнать настоящий ID установленного расширения
 
 Откройте `chrome://extensions` (в Helium — `helium://extensions`), включите режим разработчика и скопируйте ID нужной установки MediaLatch.

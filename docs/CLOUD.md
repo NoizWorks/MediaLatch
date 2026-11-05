@@ -52,6 +52,8 @@ Next to the field label, **Get token** opens the provider's official page in a n
 
 ## Publisher setup (OAuth registration)
 
+For production OAuth branding, use the verified domain `noizworks.is-a.dev`, the [MediaLatch homepage](https://noizworks.is-a.dev/medialatch/) and its linked [privacy policy](https://noizworks.is-a.dev/privacy.html). The redirect URI still comes from the extension ID of the installed build.
+
 You need to do this once. The result is **public** client identifiers (including a separate Google Web client for Helium). A client secret is never needed or stored, and there is nothing to paste into source files by hand: use the helper.
 
 ```

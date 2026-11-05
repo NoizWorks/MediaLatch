@@ -1,6 +1,6 @@
 # Architecture roadmap
 
-Updated 2026-10-31 for released 3.0.7. See [status](STATUS.md) for runtime identity, measured results and acceptance limits. Publication does not assign the next task.
+Updated 2026-11-05. Published behavior refers to GitHub release 3.0.7. See [status](STATUS.md) for release identity and acceptance limits.
 
 ## Implemented foundation
 
@@ -59,9 +59,11 @@ Unified Saving output and compact controls, indexed tokens and hover-check feedb
 
 ## Unreleased after 3.0.7
 
-**Cloud destinations (implemented in source, not live-accepted).** A Storage section, a destination chooser (Storage, Saving, toolbar popup), Google Drive and Yandex Disk uploads with OAuth or an advanced access token, and the shared folder/name rules beneath an application-owned root. Owed: publisher OAuth registration (Google Chrome Extension client per Item ID, Yandex application and Redirect URI), then live acceptance of sign-in, a real upload in Chrome and Helium, quota/revocation paths and live-site local/Cloud controls. Isolated Storage locale/theme/width checks and provider HTTP fixtures passed; they are not real-cloud acceptance. Not planned for the first version: a cloud browser, shared drives, sync, several simultaneous destinations. See [CLOUD.md](CLOUD.md).
+Development work includes MEGA uploads, Telegram Bot API channel posting with local drafts, a choice between original MP4 and GIF conversion, Pinterest controls and UI refinements. These changes are outside the published 3.0.7 package. Telegram account sign-in through MTProto and Telegram-native scheduling remain planned. A draft made from selected Downloads records is also planned. Release notes will identify availability when a new package is published.
 
-The current source cycle consolidates folder/name preference projection, preserves the captured destination throughout preparation, and removes full-history allocation from per-thumbnail ownership checks (see [status](STATUS.md)). Production-path and identity/recovery regressions accompany the changes; source/browser acceptance is recorded separately. The accepted 3.0.7 package is unchanged. Wider publication-date extraction still needs a selected-item response contract; the manager's durable whole-record writes remain unchanged. Physical folder grants, live layouts and messenger playback still need manual acceptance.
+The committed development snapshot includes per-job atomic history writes, progress deltas, large-file Yandex checksum checks, preview-cache controls and named saving presets. The first history snapshot still loads in full. Additional local work and its validation are tracked separately from that snapshot.
+
+Google OAuth branding for `noizworks.is-a.dev` is under review. Remaining acceptance includes real-account quota and revocation cases, large uploads, external OS folder grants and messenger playback. Changes to folder or filename settings apply to new saves.
 
 ## Open sequence
 

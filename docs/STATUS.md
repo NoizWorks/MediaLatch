@@ -1,15 +1,21 @@
 # Project status
 
-Latest stable GitHub distribution: **3.0.7**, with verified owner-signed minified CRX and matching runtime ZIP. Updated 2026-10-31. The owner supplied a Chrome Web Store rejection for draft 3.0.7 on 2026-10-31: Yellow Argon, excessive site keywords in the English and Russian descriptions. Revised listing copy removes those lists; resubmission and approval remain separate owner actions.
+Latest stable GitHub distribution: **3.0.7**, with verified owner-signed minified CRX and matching runtime ZIP. The public Chrome Web Store listing also shows version 3.0.7 as of 2026-11-05. GitHub and Store distribute their own packages. Google is reviewing the OAuth branding submission for the verified `noizworks.is-a.dev` domain.
 
 Runtime source commit: `6a82cc4b953d323d0a37a19c9d4bf547109cd5c2`, minified build `de3c1c3bbc27`, 112 runtime files. Documentation-only commits do not change this runtime identity. Each release asset has its own hash; the provenance includes the source map and every shipped file.
 
 | Snapshot | State |
 | --- | --- |
 | Public GitHub release | Stable 3.0.7; registered RSA signer and 112/112 payload files verified |
-| Development source | Readable 3.0.7 with matching cloud and UI changes; minification stays outside the source checkout |
-| Private GitHub main | Accepted source and documentation synchronized; public GitHub contains docs and runtime packages |
-| Chrome Web Store | Draft 3.0.7 rejected on 2026-10-31 (Yellow Argon); revised descriptions prepared, resubmission pending |
+| Local development | Contains later, unshipped changes. The version number alone does not identify this working source. |
+| Private GitHub main | Committed development source. Public packages are distributed separately. |
+| Chrome Web Store | Public listing shows 3.0.7. OAuth branding review is in progress. |
+
+## Development outside the published package
+
+Development work includes MEGA uploads, Telegram Bot API channel posting with local drafts, a choice between original MP4 and GIF conversion, Pinterest controls and UI refinements. These changes are outside the published 3.0.7 package. Telegram account sign-in through MTProto and Telegram-native scheduling remain planned. A draft made from selected Downloads records is also planned. Release notes will identify availability when a new package is published.
+
+The private repository contains a committed development snapshot. Later local work is not present in that snapshot until it is synchronized. Historical test counts below belong to the candidates described in their sections.
 
 ## Published 3.0.7
 

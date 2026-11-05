@@ -6,14 +6,14 @@
 
 ### Поддерживаемые версии
 
-Исправления ориентированы на [последний стабильный выпуск](https://github.com/xhthc/MediaLatch/releases/latest). Отдельное сопровождение старых веток не обещается.
+Исправления ориентированы на [последний стабильный выпуск](https://github.com/NoizWorks/MediaLatch/releases/latest). Отдельное сопровождение старых веток не обещается.
 
 ### Сообщить об уязвимости
 
 О багах, проблемах и уязвимостях сообщайте одним из способов:
 
 - Email: [always1337@vk.com](mailto:always1337@vk.com), тема `MediaLatch security`.
-- Issues: [xhthc/MediaLatch](https://github.com/xhthc/MediaLatch/issues).
+- Issues: [NoizWorks/MediaLatch](https://github.com/NoizWorks/MediaLatch/issues).
 
 Не публикуйте действующий эксплойт или чувствительные данные в Issues. Подробности уязвимости отправляйте на почту.
 
@@ -33,14 +33,14 @@
 
 ### Supported versions
 
-Fixes target the [latest stable release](https://github.com/xhthc/MediaLatch/releases/latest). Separate maintenance of older branches is not promised.
+Fixes target the [latest stable release](https://github.com/NoizWorks/MediaLatch/releases/latest). Separate maintenance of older branches is not promised.
 
 ### Report a vulnerability
 
 Report bugs, problems and vulnerabilities through either channel:
 
 - Email: [always1337@vk.com](mailto:always1337@vk.com), subject `MediaLatch security`.
-- Issues: [xhthc/MediaLatch](https://github.com/xhthc/MediaLatch/issues).
+- Issues: [NoizWorks/MediaLatch](https://github.com/NoizWorks/MediaLatch/issues).
 
 Do not post a working exploit or sensitive data in public Issues. Send vulnerability details by email.
 
