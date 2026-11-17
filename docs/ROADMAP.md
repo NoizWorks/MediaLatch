@@ -59,7 +59,7 @@ Unified Saving output and compact controls, indexed tokens and hover-check feedb
 
 ## Unreleased after 3.0.7
 
-Development work includes MEGA uploads, Telegram Bot API channel posting with local drafts, a choice between original MP4 and GIF conversion, Pinterest controls and UI refinements. These changes are outside the published 3.0.7 package. Telegram account sign-in through MTProto and Telegram-native scheduling remain planned. A draft made from selected Downloads records is also planned. Release notes will identify availability when a new package is published.
+See [the development build status](STATUS.md#development-build) for implemented work and remaining manual acceptance.
 
 The committed development snapshot includes per-job atomic history writes, progress deltas, large-file Yandex checksum checks, preview-cache controls and named saving presets. The first history snapshot still loads in full. Additional local work and its validation are tracked separately from that snapshot.
 

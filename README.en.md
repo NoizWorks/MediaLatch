@@ -1,66 +1,47 @@
 <div align="center">
 
-<p align="center"><img src="assets/readme/hero-en.svg?v=violet-loop-2" width="1120" alt="MediaLatch — save media, preview and organize"></p>
+<p align="center"><img src="assets/readme/hero-en.svg?v=obsidian-1" width="1120" alt="MediaLatch — save media, preview and organize"></p>
 
 [![Chrome Web Store — Install](https://img.shields.io/badge/Chrome_Web_Store-Install-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh)
 
 [![Stars](https://img.shields.io/github/stars/NoizWorks/MediaLatch?style=for-the-badge&color=22D3EE)](https://github.com/NoizWorks/MediaLatch/stargazers)
-[![Release 3.0.7](https://img.shields.io/badge/release-3.0.7-A78BFA?style=for-the-badge)](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.0.7)
+[![Release 3.0.7](https://img.shields.io/badge/release-3.0.7-E11D48?style=for-the-badge)](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.0.7)
 [![Chromium](https://img.shields.io/badge/Chromium-120%2B-22D3EE?style=for-the-badge&logo=googlechrome&logoColor=white)](https://github.com/NoizWorks/MediaLatch)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-10B981?style=for-the-badge)](docs/PRIVACY.md)
 [![Email](https://img.shields.io/badge/Email-Contact-64748B?style=for-the-badge)](mailto:always1337@vk.com)
 [![Boosty](https://img.shields.io/badge/Boosty-Support-FF6A00?style=for-the-badge&logo=boosty&logoColor=white)](https://boosty.to/fs0x1337)
-[![License](https://img.shields.io/badge/license-Proprietary-C084FC?style=for-the-badge)](LICENSE)
+[![License](https://img.shields.io/badge/license-Proprietary-A6A6AF?style=for-the-badge)](LICENSE)
 
 [**🇷🇺 Русский**](README.md) | [**🇬🇧 English**](README.en.md)
 
 </div>
 
-<p align="center"><img src="assets/readme/divider.svg?v=violet-loop-2" width="1120" alt=""></p>
+<p align="center"><img src="assets/readme/divider.svg?v=obsidian-1" width="1120" alt=""></p>
 
-> [!IMPORTANT]
-> Download MediaLatch here or read the documentation. Development source lives in a private repository. **[Stable version 3.0.7](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.0.7)** includes minified CRX and ZIP packages, separate checksums and a build file inventory.
+**[MediaLatch 3.0.7](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.0.7)** is the latest GitHub release. It includes local saving, Google Drive and Yandex Disk, per-destination rules and cloud space in the sidebar. See [project status](docs/STATUS.md) for development features. The public repository contains documentation and signed release packages.
 
-> [!NOTE]
-> **In 3.0.7:** Google Drive and Yandex Disk, separate saving profiles, sidebar cloud capacity, local/cloud inline actions, shared naming rules and popup/motion fixes. [Project status](docs/STATUS.md) · [Cloud setup](docs/CLOUD.md).
+[Product website](https://noizworks.is-a.dev/medialatch/) · [Cloud setup](docs/CLOUD.md)
 
-To update an unpacked installation, finish downloads, replace files in its existing folder with ZIP 3.0.7 and click Reload for MediaLatch on the extensions page. Keep the extension installed. Chrome Web Store handles updates for Store installations.
 
-## ⚡ About
+## About
 
 **MediaLatch** saves the images, videos and GIFs you select on a page. Use the browser menu or controls on supported sites, follow each file in the download manager, and open saved media in the built-in viewer.
 
 Configure folders, names for new files, notices and optional statistics. No companion app is required. The extension has no backend or telemetry.
 
-<p align="center"><img src="assets/readme/divider.svg?v=violet-loop-2" width="1120" alt=""></p>
+<p align="center"><img src="assets/readme/divider.svg?v=obsidian-1" width="1120" alt=""></p>
 
-## 🚀 Installation and updates
+## Installation and updates
 
-<p align="center"><img src="assets/readme/install-en.svg?v=violet-loop-zip-3" width="1120" alt="Packaged ZIP and CRX: Releases, SHA-256 and browser installation policies"></p>
+<img src="assets/readme/install-en.svg?v=obsidian-1" width="1120" alt="Install from Chrome Web Store or check a signed CRX on GitHub">
 
-Download **[ZIP 3.0.7](https://github.com/NoizWorks/MediaLatch/releases/download/v3.0.7/MediaLatch-3.0.7.zip)** for loading the unpacked extension, or [CRX 3.0.7](https://github.com/NoizWorks/MediaLatch/releases/download/v3.0.7/MediaLatch-3.0.7.crx) where browser policies permit. Each format has its own checksum: [ZIP SHA-256](https://github.com/NoizWorks/MediaLatch/releases/download/v3.0.7/MediaLatch-3.0.7.zip.sha256), [CRX SHA-256](https://github.com/NoizWorks/MediaLatch/releases/download/v3.0.7/MediaLatch-3.0.7.crx.sha256). [Build provenance](https://github.com/NoizWorks/MediaLatch/releases/download/v3.0.7/MediaLatch-3.0.7.provenance.json) describes the same 112 files in both packages. [All releases](https://github.com/NoizWorks/MediaLatch/releases).
+For Chrome, use [Chrome Web Store](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh). It updates the extension through the Store.
 
-For Chrome, use the [MediaLatch Chrome Web Store listing](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh). Browser and enterprise policies restrict self-signed CRX installation. The store version is updated separately from GitHub.
+For browsers that allow manual installation, download the [.crx file](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.0.7) from **Assets** and compare its [SHA-256](docs/CRX_CHECKSUMS.md). GitHub generates **Source code** archives from this documentation repository. They cannot be installed as an extension.
 
-If your browser permits manual CRX installation, download the package and checksum from the same release. Compare the file's SHA-256 with the published checksum before installing.
+`CRX_REQUIRED_PROOF_MISSING` means the browser does not accept the package’s distribution proof. Use the Store or an installation method allowed by your browser. The manual and Store packages can have different extension IDs. Export settings and history before switching channels if you need to keep them.
 
-### ZIP and CRX_REQUIRED_PROOF_MISSING
-
-1. Download the runtime ZIP above and verify its own SHA-256.
-2. Extract it to a permanent folder.
-3. Open `chrome://extensions`, enable Developer mode and click Load unpacked.
-4. Select the folder containing `manifest.json`, not the ZIP file.
-
-`CRX_REQUIRED_PROOF_MISSING` concerns required CRX proof: signing a package yourself does not guarantee installation in ordinary Chrome. A new private key does not replace that distribution policy. Google supports [loading unpacked extensions](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked) for local development; normal Chrome users install from the Web Store. The automatic **Source code** archive here is documentation, not the runtime. Keep the unpacked folder in place; automatic updates or data transfer between different IDs are not promised.
-
-> [!TIP]
-> Keep the checksum with the CRX. Switching installation channels can change the extension ID and local data. The private `.pem` signing key is not part of the package and is not needed by users.
-
-Version 3.0.7 keeps the signing key and ID of the manual 3.0.0 build: `iahebdomfekhiofmdocjmdjpjlclnngd`. It differs from the earlier manually signed build with ID `kmebfblhgfacdonaomlggpkndcjjpkgd`: this package will not update that installation or automatically transfer its settings and history. Export needed data through the extension's available actions before switching installations.
-
-Version 3.0.7 retains the 3.0.2 JSON statistics/history copies, larger preview cache, long-history search and earlier inline-control fixes. GIF encoding remains in a dedicated Worker; large GIFs still take time and resources. JavaScript is minified without source maps and remains inspectable in DevTools. See the [changelog](CHANGELOG.md) and [local-data behavior](docs/LOCAL_DATA.md).
-
-## 🧩 Features
+## Features in 3.0.7
 
 | Task | Available behavior |
 | --- | --- |
@@ -111,15 +92,15 @@ When names match, the extension adds a suffix, even after history and statistics
   <img src="assets/screenshots/saving-en.jpg?v=3.0.1" alt="Folder and filename settings" width="1280">
 </details>
 
-<p align="center"><img src="assets/readme/divider.svg?v=violet-loop-2" width="1120" alt=""></p>
+<p align="center"><img src="assets/readme/divider.svg?v=obsidian-1" width="1120" alt=""></p>
 
-## 🌐 From selection to file
+## From selection to file
 
-<p align="center"><img src="assets/readme/flow-en.svg?v=violet-loop-2" width="1120" alt="Select media → verify its source and bytes → save → local preview"></p>
+<p align="center"><img src="assets/readme/flow-en.svg?v=obsidian-1" width="1120" alt="Select media → verify its source and bytes → save → local preview"></p>
 
 The extension finds the selected media's original, checks the source and file, then saves it to the destination folder. It does not substitute a file from a neighboring post.
 
-## 🌍 Site coverage
+## Site coverage
 
 A site having Copy does not imply support for downloading its media. Twitch VODs retain their original address; playback, audio and galleries depend on the selected mirror and messenger. Reload already open site tabs after updating the extension.
 
@@ -139,9 +120,9 @@ Support depends on the selected media, page layout and your access to the source
 
 DRM, live streams, universal HLS/DASH, arbitrary gallery selection and YouTube downloads are not supported. A 403, expired URL, missing original or unsupported stream is reported as a failure. Files from neighboring posts are not used as a fallback.
 
-## 🖼️ Interface
+## Interface
 
-Screenshots show the 3.0.5 interface with neutral local demonstration data. They illustrate the UI, not downloads from live sites. [Folder layouts and filenames](docs/FOLDER_TEMPLATES.md) · [Capture provenance](assets/screenshots/provenance.json).
+The Obsidian cards show the development interface. The screenshots below preserve the **3.0.5** capture with sample data. [Provenance](assets/screenshots/provenance.json).
 
 <details open><summary>Download manager</summary>
 
@@ -156,9 +137,9 @@ Screenshots show the 3.0.5 interface with neutral local demonstration data. They
 
 </details>
 
-<p align="center"><img src="assets/readme/divider.svg?v=violet-loop-2" width="1120" alt=""></p>
+<p align="center"><img src="assets/readme/divider.svg?v=obsidian-1" width="1120" alt=""></p>
 
-## 🛡️ Privacy and security
+## Privacy and security
 
 MediaLatch has no backend or telemetry. Downloads contact the selected site, service or CDN. Settings, the queue, optional statistics, diagnostics and preview caches stay in extension storage. A manual version check contacts GitHub and does not install code.
 
@@ -166,11 +147,11 @@ Page notices show a short download result. Folder grants and local paths stay pr
 
 Report bugs, problems and vulnerabilities to [always1337@vk.com](mailto:always1337@vk.com) or [Issues](https://github.com/NoizWorks/MediaLatch/issues). Send vulnerability details and sensitive data by email. See the [Security Policy](SECURITY.md) for what to include and how to test.
 
-## ☕ Support the project
+## Support the project
 
-Support development on [Boosty](https://boosty.to/fs0x1337) or [DonationAlerts](https://dalink.to/fs0x1337). Send questions and feedback through [Issues](https://github.com/NoizWorks/MediaLatch/issues) or [email](mailto:always1337@vk.com).
+Support development on [Boosty](https://boosty.to/fs0x1337), [DonationAlerts](https://dalink.to/fs0x1337) or [CloudTips](https://pay.cloudtips.ru/p/da0d3dbe). Send questions and feedback through [Issues](https://github.com/NoizWorks/MediaLatch/issues) or [email](mailto:always1337@vk.com).
 
-## 📜 License
+## License
 
 Starting with 3.0.0, project-owned code and artwork use the [proprietary license](LICENSE). Earlier GPL recipients keep their existing rights. Third-party components retain their [licenses and notices](THIRD_PARTY_NOTICES.txt).
 

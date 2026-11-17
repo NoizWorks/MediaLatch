@@ -1,21 +1,15 @@
 # Project status
 
-Latest stable GitHub distribution: **3.0.7**, with verified owner-signed minified CRX and matching runtime ZIP. The public Chrome Web Store listing also shows version 3.0.7 as of 2026-11-05. GitHub and Store distribute their own packages. Google is reviewing the OAuth branding submission for the verified `noizworks.is-a.dev` domain.
+The latest GitHub release is **[3.0.7](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.0.7)**. It supports local saving, Google Drive and Yandex Disk. See the [CRX checksums](CRX_CHECKSUMS.md) for the signed packages. The [Chrome Web Store listing](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh) uses a separate publication and update channel.
 
-Runtime source commit: `6a82cc4b953d323d0a37a19c9d4bf547109cd5c2`, minified build `de3c1c3bbc27`, 112 runtime files. Documentation-only commits do not change this runtime identity. Each release asset has its own hash; the provenance includes the source map and every shipped file.
+## Development build
 
-| Snapshot | State |
-| --- | --- |
-| Public GitHub release | Stable 3.0.7; registered RSA signer and 112/112 payload files verified |
-| Local development | Contains later, unshipped changes. The version number alone does not identify this working source. |
-| Private GitHub main | Committed development source. Public packages are distributed separately. |
-| Chrome Web Store | Public listing shows 3.0.7. OAuth branding review is in progress. |
+- Downloads has List and Gallery views, grouped or chronological history, and local previews. Overview shows recent saves and retained activity. The toolbar shows the queue, destination and cached cloud space.
+- The interface has four themes and seven languages. About, Updates and the layout of the popup and channel picker have been revised. A dismissible support card can appear after seven days of use.
+- Pinterest support includes selected images and compatible video. Inline buttons can move clear of controls on a pin. Site layout and account access still affect saving.
+- MEGA and Posts & Drafts are in the development build. Posts supports Telegram account or bot connections and VK communities. Captions and attachments can stay in local drafts. Publishing and scheduling depend on platform permissions and the selected connection.
 
-## Development outside the published package
-
-Development work includes MEGA uploads, Telegram Bot API channel posting with local drafts, a choice between original MP4 and GIF conversion, Pinterest controls and UI refinements. These changes are outside the published 3.0.7 package. Telegram account sign-in through MTProto and Telegram-native scheduling remain planned. A draft made from selected Downloads records is also planned. Release notes will identify availability when a new package is published.
-
-The private repository contains a committed development snapshot. Later local work is not present in that snapshot until it is synchronized. Historical test counts below belong to the candidates described in their sections.
+These features await manual acceptance and a new release. Published release notes identify what is available to install.
 
 ## Published 3.0.7
 

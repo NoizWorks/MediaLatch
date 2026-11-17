@@ -1,31 +1,13 @@
 {
-  "artwork": "Adapted from the seven SVGs supplied by the owner in medialatch-readme-svgs.zip; private extension sources are not included.",
-  "archive_sha256": "6152872648843c2f206ea0e81de2e00cdef5c8656a4c06d31edac929f973350b",
-  "owner_asset_sha256": {
-    "hero-ru.svg": "b3f8900392556d5a0d7fb6bc59bbd2f307a47ba465322bea15d7bce0977c85f9",
-    "hero-en.svg": "1151707cb1675bb69fec8b840e3376080b55c723c990e93400bfcf370ef5ea92",
-    "flow-ru.svg": "02d89eccf70900a5f2787d3c7afb3559e0b8cd6e7fd06c85cbe3eaaf2e1b564e",
-    "flow-en.svg": "f66fd5a0e8a6d764eebd1f927d806eb46490fad2af628978d4611911c1ce6b43",
-    "install-ru.svg": "b2fac65b02e5b4e8aa4e4f3ab497e2df1dee89c3e6024bf87178694b0c2cfb04",
-    "install-en.svg": "f77e3966aed368626e75896030eabfee94e6b06ee4c58d9c3fbd7d2212f6b011",
-    "divider.svg": "e7a64ebd13e340507bee23c14f9d9b159a3c7b0ebb7392d38fcc70c59965de9f"
-  },
-  "adaptations": [
-    "Escaped invalid XML ampersand in flow-en.",
-    "Preserved layout translations outside animated elements.",
-    "User-requested repeating eight-second transform/opacity explanations with synchronized reset and completed reduced-motion state.",
-    "Marked hero as demonstration, corrected checksum filename and removed unsupported per-stage verification claim.",
-    "Updated both README image versions to bypass stale GitHub image caches.",
-    "Added ZIP alongside CRX in both installation cards; retained gradients, geometry, eight-second loops and reduced-motion fallback. README install image cache key updated."
-  ],
-  "animation": "Eight-second infinite CSS transform/opacity cycles; synchronized phases and invisible progress reset; static completed reduced-motion fallback. No scripts or external resources.",
+  "style": "MediaLatch Obsidian",
+  "scope": "Static vector illustrations, development UI with sample data",
   "sha256": {
-    "divider.svg": "416b1c59d1730ca226885d9bb91f787394921f348e4f68320b0a5fbadea35ec9",
-    "flow-en.svg": "c5315292167218fa673913fbe7c0acae4ecb46cba70ecc2a9832bac0e9204ccf",
-    "flow-ru.svg": "895d7cd934c61523e968d67bb31a0aae6cc6313e8842aefa2f7a431a87f9cf4d",
-    "hero-en.svg": "6a5878f135b9a41700af72e55361e682ebff6be07d48099fbd977bf4ad642bd1",
-    "hero-ru.svg": "5993408c2f95daa094ed6217cbd77d40c7f5f032520b580f942a07a9d2ae8808",
-    "install-en.svg": "51720bb8c458b21c3364dc834d075d0f2f4e09f828e89329bc54ddeac4a814df",
-    "install-ru.svg": "fc2d9dff07de120305a74d6c37f734a464399975ba1b41dc8cef17d6e118b22c"
+    "divider.svg": "81670859997af16cd066e516e8e71ade72c28587e21cd8864f93209519518d47",
+    "flow-en.svg": "1459e08341035fa2902b98ae9bf30a908e2fe5fe4c08cc94aff5bb3a2cdba1fe",
+    "flow-ru.svg": "8c4139102bbd075e421f68e1233b31e095f52ef17c928cac8b67d896176c022c",
+    "hero-en.svg": "709d71b698d2da988eece3f077780d78eea8d44e45ac054147559d9735cb7fc5",
+    "hero-ru.svg": "25cc5f573f191905891a5025a412a46700c0ddd6f1fce9f797654d0ffe5887cc",
+    "install-en.svg": "31336d7f06c4c8fedcbb6d971f84c5ba84571368e3eed4b002c5b384d43ee053",
+    "install-ru.svg": "83920b11538c8a2ac13016f612d36ac8e9f333a0f493ff4326736a6e39888f62"
   }
 }

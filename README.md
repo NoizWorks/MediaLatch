@@ -1,66 +1,47 @@
 <div align="center">
 
-<p align="center"><img src="assets/readme/hero-ru.svg?v=violet-loop-2" width="1120" alt="MediaLatch — сохранение медиа, превью и папки"></p>
+<p align="center"><img src="assets/readme/hero-ru.svg?v=obsidian-1" width="1120" alt="MediaLatch — сохранение медиа, превью и папки"></p>
 
 [![Chrome Web Store — Установить](https://img.shields.io/badge/Chrome_Web_Store-%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh)
 
 [![Stars](https://img.shields.io/github/stars/NoizWorks/MediaLatch?style=for-the-badge&color=22D3EE)](https://github.com/NoizWorks/MediaLatch/stargazers)
-[![Release 3.0.7](https://img.shields.io/badge/release-3.0.7-A78BFA?style=for-the-badge)](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.0.7)
+[![Release 3.0.7](https://img.shields.io/badge/release-3.0.7-E11D48?style=for-the-badge)](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.0.7)
 [![Chromium](https://img.shields.io/badge/Chromium-120%2B-22D3EE?style=for-the-badge&logo=googlechrome&logoColor=white)](https://github.com/NoizWorks/MediaLatch)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-10B981?style=for-the-badge)](docs/PRIVACY.md)
 [![Email](https://img.shields.io/badge/Email-%D0%9D%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C-64748B?style=for-the-badge)](mailto:always1337@vk.com)
 [![Boosty](https://img.shields.io/badge/Boosty-%D0%9F%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D1%82%D1%8C-FF6A00?style=for-the-badge&logo=boosty&logoColor=white)](https://boosty.to/fs0x1337)
-[![License](https://img.shields.io/badge/license-Proprietary-C084FC?style=for-the-badge)](LICENSE)
+[![License](https://img.shields.io/badge/license-Proprietary-A6A6AF?style=for-the-badge)](LICENSE)
 
 [**🇷🇺 Русский**](README.md) | [**🇬🇧 English**](README.en.md)
 
 </div>
 
-<p align="center"><img src="assets/readme/divider.svg?v=violet-loop-2" width="1120" alt=""></p>
+<p align="center"><img src="assets/readme/divider.svg?v=obsidian-1" width="1120" alt=""></p>
 
-> [!IMPORTANT]
-> Здесь можно скачать MediaLatch и прочитать документацию. Исходники разработки хранятся в закрытом репозитории. **[Стабильная версия 3.0.7](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.0.7)** содержит минифицированные CRX и ZIP, отдельные контрольные суммы и сведения о составе сборки.
+**[MediaLatch 3.0.7](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.0.7)** — последний выпуск на GitHub. Он поддерживает сохранение на компьютер, Google Drive и Яндекс Диск, отдельные правила для каждого хранилища и показ свободного места. Возможности разрабатываемой сборки перечислены в [состоянии проекта](docs/STATUS.md). Здесь доступны документация и подписанные пакеты.
 
-> [!NOTE]
-> **В 3.0.7:** Google Drive и Яндекс Диск, отдельные профили папок/имён, место в облаке под навигацией, локальные и облачные inline-действия. Общие правила имён и доработки popup/анимаций. [Состояние проекта](docs/STATUS.md) · [Настройка облака](docs/CLOUD.ru.md).
+[Сайт проекта](https://noizworks.is-a.dev/medialatch/) · [Настройка облака](docs/CLOUD.ru.md)
 
-Для обновления распакованной установки завершите загрузки, замените файлы в её прежней папке новым ZIP 3.0.7 и нажмите «Обновить» у MediaLatch на странице расширений. Удалять расширение не нужно. Версию из Chrome Web Store обновляет магазин.
 
-## ⚡ О проекте
+## О проекте
 
 **MediaLatch** сохраняет выбранные изображения, видео и GIF со страницы. Меню браузера и кнопки на поддерживаемых сайтах запускают скачивание, менеджер показывает результат каждого файла, а встроенный просмотрщик открывает сохранённое медиа.
 
 Папки, имена новых файлов, уведомления и статистика настраиваются. Дополнительная программа не нужна; собственного сервера и телеметрии у расширения нет.
 
-<p align="center"><img src="assets/readme/divider.svg?v=violet-loop-2" width="1120" alt=""></p>
+<p align="center"><img src="assets/readme/divider.svg?v=obsidian-1" width="1120" alt=""></p>
 
-## 🚀 Установка и обновления
+## Установка и обновления
 
-<p align="center"><img src="assets/readme/install-ru.svg?v=violet-loop-zip-3" width="1120" alt="ZIP и CRX: Releases, SHA-256 и правила установки браузера"></p>
+<img src="assets/readme/install-ru.svg?v=obsidian-1" width="1120" alt="Установка из Chrome Web Store или проверка подписанного CRX на GitHub">
 
-Скачайте **[ZIP 3.0.7](https://github.com/NoizWorks/MediaLatch/releases/download/v3.0.7/MediaLatch-3.0.7.zip)** для загрузки распакованного расширения или [CRX 3.0.7](https://github.com/NoizWorks/MediaLatch/releases/download/v3.0.7/MediaLatch-3.0.7.crx) для разрешённых браузером способов установки. Для каждого формата есть своя сумма: [ZIP SHA-256](https://github.com/NoizWorks/MediaLatch/releases/download/v3.0.7/MediaLatch-3.0.7.zip.sha256), [CRX SHA-256](https://github.com/NoizWorks/MediaLatch/releases/download/v3.0.7/MediaLatch-3.0.7.crx.sha256). [Состав сборки](https://github.com/NoizWorks/MediaLatch/releases/download/v3.0.7/MediaLatch-3.0.7.provenance.json) описывает одинаковые 112 файлов обоих пакетов. [Все выпуски](https://github.com/NoizWorks/MediaLatch/releases).
+В Chrome установите расширение из [Chrome Web Store](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh). Магазин доставляет обновления автоматически.
 
-Для Chrome используйте [страницу MediaLatch в Chrome Web Store](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh). Установку самостоятельно подписанного CRX ограничивают правила браузера и корпоративные политики. Версия в магазине обновляется отдельно от GitHub.
+Если браузер разрешает ручную установку, скачайте [.crx](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.0.7) из **Assets** и сравните [SHA-256](docs/CRX_CHECKSUMS.md). Архивы **Source code** GitHub собирает из файлов этого репозитория с документацией. Установить их как расширение нельзя.
 
-Если браузер разрешает ручную установку CRX, скачайте пакет и контрольную сумму из одного релиза. Перед установкой сравните SHA-256 файла с опубликованной суммой.
+Ошибка `CRX_REQUIRED_PROOF_MISSING` означает, что браузер не принимает подпись канала распространения. Используйте магазин или способ установки, который разрешён вашим браузером. У ручной версии и версии из магазина могут быть разные ID расширения. Перед сменой канала экспортируйте нужные настройки и историю.
 
-### ZIP и ошибка CRX_REQUIRED_PROOF_MISSING
-
-1. Скачайте runtime ZIP по ссылке выше и проверьте именно его SHA-256.
-2. Распакуйте в постоянную папку.
-3. Откройте `chrome://extensions`, включите «Режим разработчика» и нажмите «Загрузить распакованное расширение».
-4. Выберите папку с `manifest.json`, а не сам ZIP.
-
-`CRX_REQUIRED_PROOF_MISSING` относится к требуемому подтверждению CRX: самостоятельная подпись не гарантирует установку в обычном Chrome. Новый ключ `.pem` эту политику не заменяет. Для локальной проверки Google поддерживает [загрузку распакованного расширения](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked); обычный канал для пользователей Chrome — Web Store. Архив **Source code** этого репозитория содержит документацию, а не runtime. Папку распакованной установки нельзя удалять; автоматические обновления и перенос данных между разными ID не обещаются.
-
-> [!TIP]
-> Сохраняйте контрольную сумму рядом с CRX. При ручной смене канала установки могут отличаться ID расширения и локальные данные. Закрытый ключ `.pem` не входит в пакет и не нужен пользователям.
-
-В 3.0.7 сохранены ключ подписи и ID ручной сборки 3.0.0 — `iahebdomfekhiofmdocjmdjpjlclnngd`. Он отличается от прежней ручной сборки с ID `kmebfblhgfacdonaomlggpkndcjjpkgd`: такой пакет не обновит её, а настройки и история автоматически не перенесутся. Перед сменой установки экспортируйте нужные данные через доступные действия расширения.
-
-Версия 3.0.7 сохраняет возможности 3.0.2: JSON-копии статистики и истории, увеличенный кэш превью, поиск по длинной истории и прежние исправления inline-кнопок. Кодирование GIF остаётся в отдельном Worker; большие GIF требуют времени и ресурсов. Минифицированный JavaScript без source map остаётся доступен в DevTools. См. [изменения](CHANGELOG.md) и [локальные данные](docs/LOCAL_DATA.md).
-
-## 🧩 Возможности
+## Возможности в 3.0.7
 
 | Задача | Что доступно |
 | --- | --- |
@@ -111,15 +92,15 @@ Downloads/
   <img src="assets/screenshots/saving-ru.jpg?v=3.0.1" alt="Настройки папок и имён файлов" width="1280">
 </details>
 
-<p align="center"><img src="assets/readme/divider.svg?v=violet-loop-2" width="1120" alt=""></p>
+<p align="center"><img src="assets/readme/divider.svg?v=obsidian-1" width="1120" alt=""></p>
 
-## 🌐 Как проходит сохранение
+## Как проходит сохранение
 
-<p align="center"><img src="assets/readme/flow-ru.svg?v=violet-loop-2" width="1120" alt="Выбор медиа → проверка источника и файла → сохранение → локальное превью"></p>
+<p align="center"><img src="assets/readme/flow-ru.svg?v=obsidian-1" width="1120" alt="Выбор медиа → проверка источника и файла → сохранение → локальное превью"></p>
 
 Расширение ищет оригинал выбранного медиа, проверяет источник и файл, затем сохраняет его в папку. Файл из соседнего поста не используется как замена.
 
-## 🌍 Поддержка сайтов
+## Поддержка сайтов
 
 Наличие Copy на площадке не означает поддержку скачивания её медиа. VOD Twitch сохраняют исходный адрес; воспроизведение, звук и галереи зависят от выбранного зеркала и мессенджера. После обновления расширения перезагрузите уже открытые вкладки сайтов.
 
@@ -139,9 +120,9 @@ Downloads/
 
 DRM, эфиры, универсальная загрузка HLS/DASH, произвольное выделение галереи и скачивание YouTube не поддерживаются. Ошибки 403, истёкшие ссылки, отсутствующий оригинал и неподдерживаемый поток показываются как сбой. Соседний пост не используется как запасной источник.
 
-## 🖼️ Интерфейс
+## Интерфейс
 
-Снимки показывают интерфейс 3.0.5 с нейтральными локальными демонстрационными данными. Они иллюстрируют интерфейс, а не результаты скачивания с реальных сайтов. [Структура папок и имена](docs/FOLDER_TEMPLATES.md) · [Версия снимков](assets/screenshots/provenance.json).
+Карточки Obsidian показывают разрабатываемый интерфейс. Ниже сохранены снимки версии **3.0.5** с демонстрационными данными. [Версия снимков](assets/screenshots/provenance.json).
 
 <details open><summary>Менеджер загрузок</summary>
 
@@ -156,9 +137,9 @@ DRM, эфиры, универсальная загрузка HLS/DASH, прои�
 
 </details>
 
-<p align="center"><img src="assets/readme/divider.svg?v=violet-loop-2" width="1120" alt=""></p>
+<p align="center"><img src="assets/readme/divider.svg?v=obsidian-1" width="1120" alt=""></p>
 
-## 🛡️ Приватность и безопасность
+## Приватность и безопасность
 
 У MediaLatch нет собственного сервера и телеметрии. Скачивание обращается к выбранному источнику, сервису или CDN. Настройки, очередь, опциональная статистика, диагностика и превью хранятся в расширении. Ручная проверка версии обращается к GitHub и не устанавливает код.
 
@@ -166,11 +147,11 @@ DRM, эфиры, универсальная загрузка HLS/DASH, прои�
 
 О багах, проблемах и уязвимостях сообщайте на [always1337@vk.com](mailto:always1337@vk.com) или в [Issues](https://github.com/NoizWorks/MediaLatch/issues). Подробности уязвимостей и чувствительные данные отправляйте на почту. Что приложить к сообщению и как проводить проверку, описано в [Security Policy](SECURITY.md).
 
-## ☕ Поддержать проект
+## Поддержать проект
 
-Поддержать разработку можно на [Boosty](https://boosty.to/fs0x1337) или [DonationAlerts](https://dalink.to/fs0x1337). Для вопросов и обратной связи используйте [Issues](https://github.com/NoizWorks/MediaLatch/issues) или [почту](mailto:always1337@vk.com).
+Поддержать разработку можно на [Boosty](https://boosty.to/fs0x1337), [DonationAlerts](https://dalink.to/fs0x1337) или [CloudTips](https://pay.cloudtips.ru/p/da0d3dbe). Для вопросов и обратной связи используйте [Issues](https://github.com/NoizWorks/MediaLatch/issues) или [почту](mailto:always1337@vk.com).
 
-## 📜 Лицензия
+## Лицензия
 
 С версии 3.0.0 собственный код и графика распространяются по [закрытой лицензии](LICENSE). Ранее полученные GPL-версии сохраняют прежние права. Сторонние компоненты сохраняют свои [лицензии и уведомления](THIRD_PARTY_NOTICES.txt).
 
