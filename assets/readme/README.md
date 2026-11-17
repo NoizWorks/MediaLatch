@@ -1,5 +1,7 @@
 # MediaLatch README artwork
 
-The English and Russian cards use MediaLatch’s Obsidian palette. The hero illustrates the development popup with sample data and names the four current themes. The installation card covers Chrome Web Store and signed CRX downloads. The flow card shows what happens to a selected file.
+The seven SVGs retain the owner’s original README composition and synchronized eight-second animation loops. The surfaces, text, progress rails and highlights use MediaLatch’s Obsidian palette. The hero embeds the existing mark from `icons/source.svg`, with the extension’s Obsidian brand colors.
 
-The SVGs contain static vector artwork and system fonts. See [project status](../../docs/STATUS.md) for the released feature set.
+Russian and English cards illustrate a save, the path from selected media to a saved file, and CRX installation. The installation text follows the current CRX distribution policy. The preview contains sample data.
+
+Animations use opacity and transforms. Reduced motion shows the completed static state. The SVGs embed their styles and vector paths, with system fonts and no external resources.

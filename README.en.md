@@ -1,6 +1,6 @@
 <div align="center">
 
-<p align="center"><img src="assets/readme/hero-en.svg?v=obsidian-1" width="1120" alt="MediaLatch — save media, preview and organize"></p>
+<p align="center"><img src="assets/readme/hero-en.svg?v=obsidian-loop-2" width="1120" alt="MediaLatch — save media, preview and organize"></p>
 
 [![Chrome Web Store — Install](https://img.shields.io/badge/Chrome_Web_Store-Install-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh)
 
@@ -16,7 +16,7 @@
 
 </div>
 
-<p align="center"><img src="assets/readme/divider.svg?v=obsidian-1" width="1120" alt=""></p>
+<p align="center"><img src="assets/readme/divider.svg?v=obsidian-loop-2" width="1120" alt=""></p>
 
 **[MediaLatch 3.0.7](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.0.7)** is the latest GitHub release. It includes local saving, Google Drive and Yandex Disk, per-destination rules and cloud space in the sidebar. See [project status](docs/STATUS.md) for development features. The public repository contains documentation and signed release packages.
 
@@ -29,11 +29,11 @@
 
 Configure folders, names for new files, notices and optional statistics. No companion app is required. The extension has no backend or telemetry.
 
-<p align="center"><img src="assets/readme/divider.svg?v=obsidian-1" width="1120" alt=""></p>
+<p align="center"><img src="assets/readme/divider.svg?v=obsidian-loop-2" width="1120" alt=""></p>
 
 ## Installation and updates
 
-<img src="assets/readme/install-en.svg?v=obsidian-1" width="1120" alt="Install from Chrome Web Store or check a signed CRX on GitHub">
+<img src="assets/readme/install-en.svg?v=obsidian-loop-2" width="1120" alt="Install from Chrome Web Store or check a signed CRX on GitHub">
 
 For Chrome, use [Chrome Web Store](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh). It updates the extension through the Store.
 
@@ -92,11 +92,11 @@ When names match, the extension adds a suffix, even after history and statistics
   <img src="assets/screenshots/saving-en.jpg?v=3.0.1" alt="Folder and filename settings" width="1280">
 </details>
 
-<p align="center"><img src="assets/readme/divider.svg?v=obsidian-1" width="1120" alt=""></p>
+<p align="center"><img src="assets/readme/divider.svg?v=obsidian-loop-2" width="1120" alt=""></p>
 
 ## From selection to file
 
-<p align="center"><img src="assets/readme/flow-en.svg?v=obsidian-1" width="1120" alt="Select media → verify its source and bytes → save → local preview"></p>
+<p align="center"><img src="assets/readme/flow-en.svg?v=obsidian-loop-2" width="1120" alt="Select media → verify its source and bytes → save → local preview"></p>
 
 The extension finds the selected media's original, checks the source and file, then saves it to the destination folder. It does not substitute a file from a neighboring post.
 
@@ -137,7 +137,7 @@ The Obsidian cards show the development interface. The screenshots below preserv
 
 </details>
 
-<p align="center"><img src="assets/readme/divider.svg?v=obsidian-1" width="1120" alt=""></p>
+<p align="center"><img src="assets/readme/divider.svg?v=obsidian-loop-2" width="1120" alt=""></p>
 
 ## Privacy and security
 
