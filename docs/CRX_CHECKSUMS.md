@@ -1,8 +1,8 @@
-# Signed release checksums
+# Historical CRX checksums
 
-Compare the SHA-256 of the downloaded CRX with the value for that exact release. On Windows, run `Get-FileHash -Algorithm SHA256 <path-to-file>`.
+These hashes identify copies of the signed CRX files previously distributed on GitHub. To check a file you already have, run `Get-FileHash -Algorithm SHA256 <path-to-file>` on Windows.
 
-Chrome Web Store and GitHub packages use separate distribution channels. Chrome may restrict installation of a developer-signed CRX.
+Install and update MediaLatch exclusively through [Chrome Web Store](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh). [GitHub Releases](https://github.com/NoizWorks/MediaLatch/releases) contains the release notes.
 
 | Release | SHA-256 |
 | --- | --- |
