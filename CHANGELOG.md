@@ -2,7 +2,7 @@
 
 ## 3.0.7
 
-Stable GitHub release with verified owner-signed minified CRX and matching runtime ZIP. The Chrome Web Store draft was rejected on 2026-10-31 for excessive site keywords (Yellow Argon). The public Store listing shows 3.0.7 as of 2026-11-05. OAuth branding for `noizworks.is-a.dev` is under review.
+Stable GitHub release with verified owner-signed minified CRX and matching runtime package. The Chrome Web Store draft was rejected on 2026-10-31 for excessive site keywords (Yellow Argon). The public Store listing shows 3.0.7 as of 2026-11-05. OAuth branding for `noizworks.is-a.dev` is under review.
 
 ### Русский
 
@@ -39,7 +39,7 @@ Stable GitHub release with verified owner-signed minified CRX and matching runti
 
 ## 3.0.6
 
-Stable GitHub release with a verified owner-signed minified CRX and matching runtime ZIP. The registered signature and all 104 payload files match the corrected build. Chrome Web Store submission, review and approval remain separate owner actions.
+Stable GitHub release with a verified owner-signed minified CRX and matching runtime package. The registered signature and all 104 payload files match the corrected build. Chrome Web Store submission, review and approval remain separate owner actions.
 
 ### Русский
 
@@ -65,7 +65,7 @@ Stable GitHub release with a verified owner-signed minified CRX and matching run
 
 ## 3.0.5
 
-Stable GitHub release with a verified owner-signed CRX and matching minified ZIP. Chrome Web Store submission and approval remain separate owner actions.
+Stable GitHub release with a verified owner-signed CRX and matching minified runtime. Chrome Web Store submission and approval remain separate owner actions.
 
 ### Русский
 
@@ -245,7 +245,7 @@ Prepared locally on 2026-10-24. These changes are not in the published 3.0.1 pac
 - Чистая сборка подготовлена для ручной упаковки в CRX. Закрытый ключ подписи хранится у владельца и не публикуется. CRX не скрывает JavaScript и не гарантирует установку вне магазина в Chrome для Windows/macOS.
 - Сохранены возможности 2.6.5, включая превью изображений/GIF/MP4, карусель, имена файлов, фильтры типов и офлайн-историю изменений. Новых разрешений, зависимостей или изменений формата локальных данных нет. UI собирается текущим Vite с минификацией и без sourcemaps.
 - Кодирование GIF перенесено в отдельный Worker: тяжёлая обработка кадров больше не блокирует основной поток скрытого документа. Сохранены результат кодирования, ограничения, отмена и очистка ресурсов.
-- Публикация в Chrome Web Store выполняется отдельно. При включённых Verified CRX Uploads магазин принимает CRX, подписанный зарегистрированным ключом; обычный режим использует ZIP.
+- Публикация в Chrome Web Store выполняется отдельно. При включённых Verified CRX Uploads магазин принимает CRX, подписанный зарегистрированным ключом; обычный режим использует архив сборки.
 
 ### English
 
@@ -253,7 +253,7 @@ Prepared locally on 2026-10-24. These changes are not in the published 3.0.1 pac
 - A clean runtime is prepared for manual CRX packaging. The owner keeps the private signing key outside published artifacts. A CRX does not conceal JavaScript or guarantee installation outside the store in Chrome for Windows/macOS.
 - Retains 2.6.5 behavior, including image/GIF/MP4 previews, carousel, filename settings, file-type filters and offline release history. No new permissions, dependencies or local-data format changes. The UI uses the current Vite build with minification and no sourcemaps.
 - GIF encoding runs in a dedicated Worker, keeping heavy frame processing off the hidden document's main thread. Encoding output, limits, cancellation and resource cleanup are preserved.
-- Chrome Web Store publication is separate. Verified CRX Uploads accept a CRX signed with the registered key; the ordinary upload path uses ZIP.
+- Chrome Web Store publication is separate. Verified CRX Uploads accept a CRX signed with the registered key; the ordinary upload path uses a runtime archive.
 
 ## 2.6.5 — Viewer, naming and lifecycle fixes
 
@@ -531,7 +531,7 @@ This is a preview. Automated checks do not establish broad live-site or installe
 
 - Keep page notices working after opening the download manager and returning to the source page. Opening the manager retires the current card; later results still share one activity card. Explicit close/Escape retains series suppression.
 - Replace the chosen-folder file picker with an optional Windows Explorer companion for both download managers. Link a saved destination once; verify the exact extension origin, fresh directory proof and completed relative file before opening its parent. Ordinary browser Downloads keep their existing reveal action.
-- Provide the Windows companion as a separate release ZIP with installation instructions. Missing helper/binding keeps download cards and gives localized recovery. The extension now declares `nativeMessaging`.
+- Provide the Windows companion as a separate release package with installation instructions. Missing helper/binding keeps download cards and gives localized recovery. The extension now declares `nativeMessaging`.
 
 The user confirmed the manager-return notification fix. Automated68/68 checks and isolated native manager navigation/host communication passed. Actual Explorer/external-folder proof/toolbar lifetime and broader site/audio/crash/quota checks remain pending; this is a preview. Earlier release tags and assets stay unchanged.
 
@@ -614,4 +614,4 @@ The first public preview below retains its original Image Saver name and asset n
 - Provider-selected inline saves and restricted Reddit HLS assembly.
 - One eligible browser-native resume attempt on NETWORK_FAILED.
 
-Kemono integration, a general download manager, universal selection, ZIP batches, arbitrary drive paths and Firefox support remain planned. Native acceptance of this preview's hardening changes and Chrome Web Store submission remain separate steps.
+Kemono integration, a general download manager, universal selection, batch archives, arbitrary drive paths and Firefox support remain planned. Native acceptance of this preview's hardening changes and Chrome Web Store submission remain separate steps.

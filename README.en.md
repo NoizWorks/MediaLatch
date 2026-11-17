@@ -89,7 +89,7 @@ When names match, the extension adds a suffix, even after history and statistics
 
 <details>
   <summary>Saving settings</summary>
-  <img src="assets/screenshots/saving-en.jpg?v=3.0.1" alt="Folder and filename settings" width="1280">
+  <img src="assets/screenshots/saving-en.jpg?v=obsidian-20261117" alt="Folder and filename settings" width="1280">
 </details>
 
 <p align="center"><img src="assets/readme/divider.svg?v=obsidian-loop-2" width="1120" alt=""></p>
@@ -122,18 +122,20 @@ DRM, live streams, universal HLS/DASH, arbitrary gallery selection and YouTube d
 
 ## Interface
 
-The Obsidian cards show the development interface. The screenshots below preserve the **3.0.5** capture with sample data. [Provenance](assets/screenshots/provenance.json).
+The current development interface in **Obsidian**, with sample data. The new build will be manually tested before publication. [Provenance](assets/screenshots/provenance.json).
 
 <details open><summary>Download manager</summary>
 
-![Download manager](assets/screenshots/downloads-en.jpg)
+![Download manager](assets/screenshots/downloads-en.jpg?v=obsidian-20261117)
+
+![Gallery](assets/screenshots/gallery-en.jpg?v=obsidian-20261117)
 
 </details>
 <details><summary>Statistics, popup and viewer</summary>
 
-![Statistics](assets/screenshots/statistics-en.jpg)
-![Popup](assets/screenshots/popup-en.jpg)
-![Viewer](assets/screenshots/viewer-en.jpg)
+![Statistics](assets/screenshots/statistics-en.jpg?v=obsidian-20261117)
+![Popup](assets/screenshots/popup-en.jpg?v=obsidian-20261117)
+![Viewer](assets/screenshots/viewer-en.jpg?v=obsidian-20261117)
 
 </details>
 
@@ -149,7 +151,7 @@ Report bugs, problems and vulnerabilities to [always1337@vk.com](mailto:always13
 
 ## Support the project
 
-Support development on [Boosty](https://boosty.to/fs0x1337), [DonationAlerts](https://dalink.to/fs0x1337) or [CloudTips](https://pay.cloudtips.ru/p/da0d3dbe). Send questions and feedback through [Issues](https://github.com/NoizWorks/MediaLatch/issues) or [email](mailto:always1337@vk.com).
+Support development on [Boosty](https://boosty.to/fs0x1337), [DonationAlerts](https://dalink.to/fs0x1337) or [CloudTips](https://pay.cloudtips.ru/p/da0d3dbe). Send questions and feedback to [@fs0x1337](https://t.me/fs0x1337) on Telegram, [Issues](https://github.com/NoizWorks/MediaLatch/issues) or [email](mailto:always1337@vk.com).
 
 ## License
 

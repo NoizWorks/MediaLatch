@@ -89,7 +89,7 @@ Downloads/
 
 <details>
   <summary>Настройки сохранения</summary>
-  <img src="assets/screenshots/saving-ru.jpg?v=3.0.1" alt="Настройки папок и имён файлов" width="1280">
+  <img src="assets/screenshots/saving-ru.jpg?v=obsidian-20261117" alt="Настройки папок и имён файлов" width="1280">
 </details>
 
 <p align="center"><img src="assets/readme/divider.svg?v=obsidian-loop-2" width="1120" alt=""></p>
@@ -122,18 +122,20 @@ DRM, эфиры, универсальная загрузка HLS/DASH, прои�
 
 ## Интерфейс
 
-Карточки Obsidian показывают разрабатываемый интерфейс. Ниже сохранены снимки версии **3.0.5** с демонстрационными данными. [Версия снимков](assets/screenshots/provenance.json).
+Актуальный разрабатываемый интерфейс в теме **Obsidian**, с демонстрационными данными. Новая сборка пройдёт ручной тест перед публикацией. [Версия снимков](assets/screenshots/provenance.json).
 
 <details open><summary>Менеджер загрузок</summary>
 
-![Менеджер загрузок](assets/screenshots/downloads-ru.jpg)
+![Менеджер загрузок](assets/screenshots/downloads-ru.jpg?v=obsidian-20261117)
+
+![Галерея](assets/screenshots/gallery-ru.jpg?v=obsidian-20261117)
 
 </details>
 <details><summary>Статистика, popup и просмотрщик</summary>
 
-![Статистика](assets/screenshots/statistics-ru.jpg)
-![Popup](assets/screenshots/popup-ru.jpg)
-![Просмотрщик](assets/screenshots/viewer-ru.jpg)
+![Статистика](assets/screenshots/statistics-ru.jpg?v=obsidian-20261117)
+![Popup](assets/screenshots/popup-ru.jpg?v=obsidian-20261117)
+![Просмотрщик](assets/screenshots/viewer-ru.jpg?v=obsidian-20261117)
 
 </details>
 
@@ -149,7 +151,7 @@ DRM, эфиры, универсальная загрузка HLS/DASH, прои�
 
 ## Поддержать проект
 
-Поддержать разработку можно на [Boosty](https://boosty.to/fs0x1337), [DonationAlerts](https://dalink.to/fs0x1337) или [CloudTips](https://pay.cloudtips.ru/p/da0d3dbe). Для вопросов и обратной связи используйте [Issues](https://github.com/NoizWorks/MediaLatch/issues) или [почту](mailto:always1337@vk.com).
+Поддержать разработку можно на [Boosty](https://boosty.to/fs0x1337), [DonationAlerts](https://dalink.to/fs0x1337) или [CloudTips](https://pay.cloudtips.ru/p/da0d3dbe). Для вопросов и обратной связи используйте Telegram [@fs0x1337](https://t.me/fs0x1337), [Issues](https://github.com/NoizWorks/MediaLatch/issues) или [почту](mailto:always1337@vk.com).
 
 ## Лицензия
 

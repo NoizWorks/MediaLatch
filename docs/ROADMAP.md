@@ -22,7 +22,7 @@ Do not reimplement these mechanisms from older audits. Source checks, isolated-b
 - Shared local/cloud inline dock, selected/all gallery actions and global-destination behavior in popup/context menu.
 - Persistent sidebar cloud capacity, optional Yandex capacity/email consent, universal setup across three profiles and service/date filename scope.
 - Captured destination/policy and narrower thumbnail ownership lookup; stationary popup toolbar drawings and refined reduced-motion behavior.
-- Verified signed minified 112-file CRX/ZIP; core/UI/native 133/133 and bounded artifact evidence in [status](STATUS.md).
+- Verified signed minified 112-file CRX; core/UI/native 133/133 and bounded artifact evidence in [status](STATUS.md).
 
 Next assigned work can address real Store OAuth/branding and cloud quota/revocation, large uploads and recovery on actual accounts. Do not rebuild the implemented cloud system from older proposals.
 
@@ -55,7 +55,7 @@ Unified Saving output and compact controls, indexed tokens and hover-check feedb
 - Instagram/TikTok/Tumblr/Twitch/e-shuushuu inline recovery and explicit refusal acknowledgement; proven VK source-post feedback, narrow navigation and Save-bar clearance.
 - Uncertain-export Retry uses the existing confirmation barrier; byte/collision/concurrency boundaries stay intact. Booru test extraction preserves execution order.
 - Measured Instagram scan reduction, suspended hidden stale-speed timers and incremental preview inserts, with no new permissions/dependencies or whole-browser memory claim.
-- Corrected source 115/115 plus exact minified GIF/UI/HTTP acceptance and verified 104-file CRX/ZIP identity. Manual external-folder, broader live-site and device-performance rows remain open.
+- Corrected source 115/115 plus exact minified GIF/UI/HTTP acceptance and verified 104-file CRX identity. Manual external-folder, broader live-site and device-performance rows remain open.
 
 ## Unreleased after 3.0.7
 

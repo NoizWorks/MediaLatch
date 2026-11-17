@@ -26,7 +26,7 @@ Setup and limits: [Cloud destinations](CLOUD.md), [Russian setup](CLOUD.ru.md), 
 
 The final source core/UI/native gate passed 133/133. The minified runtime passed 65 JS/MJS syntax checks, 13 semantic suites and 7 additional cloud/profile suites. Source-format-dependent checks were adapted only for minified function boundaries and translated catalogue access; the unshipped source-configuration CLI was covered by the full source gate. Independent source and artifact reviews resolved the release-note category mismatch and found no remaining blockers.
 
-The exact extracted ZIP passed real offscreen GIF decode/Worker cleanup/cancel/timeout, four localized manager/popup pages, 14 native HTTP/cache/Range cases, seven cloud-flow cases with 20 layouts, 58 capacity cases and 40 static-toolbar icon cases. Automated provider responses were local fixtures; they are not real-account OAuth or quota acceptance. The owner separately reports local testing; screenshots show both connected accounts and capacity, plus one X image in the expected Yandex folder.
+The exact extracted runtime package passed real offscreen GIF decode/Worker cleanup/cancel/timeout, four localized manager/popup pages, 14 native HTTP/cache/Range cases, seven cloud-flow cases with 20 layouts, 58 capacity cases and 40 static-toolbar icon cases. Automated provider responses were local fixtures; they are not real-account OAuth or quota acceptance. The owner separately reports local testing; screenshots show both connected accounts and capacity, plus one X image in the expected Yandex folder.
 
 Still separate: final Store OAuth/branding, real quota/revocation edge cases, all authenticated sites, external OS folder grants, full disk and messenger Embed playback. Historical performance samples are synthetic workloads, not whole-browser RAM or battery measurements. Previous packages, tags, licences and GPL rights are preserved.
 
@@ -48,7 +48,7 @@ Narrow navigation reveals the selected tab, the contextual Save bar reveals a co
 
 The final corrected source core/UI gate passed 115/115 with 1934 UI assertions. An earlier broader 3.0.6 candidate passed 116/116 including native HTTP; the final UI-only fix did not change backend bytes. The interrupted attempt before the final gate is preserved and is not counted as a pass.
 
-The exact corrected minified ZIP passed 104 file hashes, 57 syntax checks, 13 semantic suites, native GIF decode/Worker cleanup/cancel/timeout, 81 motion cases, 41 Saving/JSON cases, 31 Recent Downloads cases with zero browser errors, 8 observer visibility cycles and 14 HTTP cases. Independent Claude Opus source/delta/artifact reviews passed; the artifact's pending-check conditions were closed by the final native evidence. The returned CRX has the registered RSA signature and matches every one of the 104 ZIP files.
+The exact corrected minified runtime package passed 104 file hashes, 57 syntax checks, 13 semantic suites, native GIF decode/Worker cleanup/cancel/timeout, 81 motion cases, 41 Saving/JSON cases, 31 Recent Downloads cases with zero browser errors, 8 observer visibility cycles and 14 HTTP cases. Independent Claude Opus source/delta/artifact reviews passed; the artifact's pending-check conditions were closed by the final native evidence. The returned CRX has the registered RSA signature and matches every one of the 104 runtime files.
 
 These are component/source and disposable installed-browser fixtures. They do not establish every authenticated live site, native menu GUI, external Windows folder grant, full disk, assistive technology, device power use or messenger playback. Folder-date fallback is intentional; one RedGIFs cold-placement observation remains unconfirmed. Third-party Embed services may be unavailable. Existing 3.0.5 and older packages/licences remain preserved.
 
@@ -60,7 +60,7 @@ These are component/source and disposable installed-browser fixtures. They do no
 - First directly opened YouTube Shorts exclude related-video links from the owning ID and preserve fail-closed ambiguity checks. Instagram/TikTok discovery avoids redundant scans, Instagram rejects comment-only rails, TikTok naming uses the selected-item ID, and Gelbooru recognizes plain Original links without weakening source checks.
 - No new runtime permissions or dependencies. Development-only undici maintenance is excluded from the package.
 
-The source gate completed 115/116 checks; the UI suite passed 1,892/1,897 with five stale label/markup assertions. Those five were corrected and passed in a focused rerun; final types, UX and generated-output checks passed. This is not an uninterrupted 116/116 result. The exact extracted minified ZIP passed 57 syntax checks, 13 semantic suites, GIF lifecycle, 81 motion cases, 41 Saving/choice/JSON cases, 10 navigation cases, keyboard departure and 14 installed-extension HTTP cases. These fixtures do not establish every live site, an external OS folder grant or assistive-technology acceptance.
+The source gate completed 115/116 checks; the UI suite passed 1,892/1,897 with five stale label/markup assertions. Those five were corrected and passed in a focused rerun; final types, UX and generated-output checks passed. This is not an uninterrupted 116/116 result. The exact extracted minified runtime package passed 57 syntax checks, 13 semantic suites, GIF lifecycle, 81 motion cases, 41 Saving/choice/JSON cases, 10 navigation cases, keyboard departure and 14 installed-extension HTTP cases. These fixtures do not establish every live site, an external OS folder grant or assistive-technology acceptance.
 
 ## Published 3.0.2 (rebuilt)
 
@@ -103,11 +103,11 @@ This section describes release 3.0.3. The additional 3.0.4 changes follow.
 - Universal fullscreen visibility/action protection for inline controls; admitted downloads remain independent. Selected chips no longer flash unchecked checkmarks during section transitions.
 - Shared disclosure headers, clearer selected states, compact error/details panels, VK gallery-counter clearance and one Save/Discard draft bar.
 
-The owner reports testing all services successfully with no observed bugs, while external embeds remain unstable; leave those services unchanged. This report is bounded to the owner's tests and does not guarantee every layout, mirror or messenger. Local Chromium/controller checks and independent review remain separately recorded in the release receipt. GitHub publication of the verified signed CRX/ZIP is recorded separately; the owner-reported Store upload is not proof of Store review or approval.
+The owner reports testing all services successfully with no observed bugs, while external embeds remain unstable; leave those services unchanged. This report is bounded to the owner's tests and does not guarantee every layout, mirror or messenger. Local Chromium/controller checks and independent review remain separately recorded in the release receipt. GitHub publication of the verified signed CRX is recorded separately; the owner-reported Store upload is not proof of Store review or approval.
 
 ## Local post-release development tooling
 
-The UI development lockfile moves jsdom's transitive `undici` from 8.11.2 to 8.12.2, the fixed bound of GHSA-xjj6-f33q-929c and two related advisories, inside jsdom's existing `^8.10.2` range. No package manifest, runtime file or dependency set changes; undici is not in the published 3.0.4 CRX/ZIP, and nothing here shows the extension was affected. Acceptance of this development-only update requires a clean install, audit and UI gate; their results are kept in local coordination evidence.
+The UI development lockfile moves jsdom's transitive `undici` from 8.11.2 to 8.12.2, the fixed bound of GHSA-xjj6-f33q-929c and two related advisories, inside jsdom's existing `^8.10.2` range. No package manifest, runtime file or dependency set changes; undici is not in the published 3.0.4 CRX, and nothing here shows the extension was affected. Acceptance of this development-only update requires a clean install, audit and UI gate; their results are kept in local coordination evidence.
 
 ## SPA efficiency included in 3.0.5
 
