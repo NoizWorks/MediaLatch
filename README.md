@@ -5,7 +5,7 @@
 [![Chrome Web Store — Установить](https://img.shields.io/badge/Chrome_Web_Store-%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh)
 
 [![Stars](https://img.shields.io/github/stars/NoizWorks/MediaLatch?style=for-the-badge&color=22D3EE)](https://github.com/NoizWorks/MediaLatch/stargazers)
-[![Release 3.0.7](https://img.shields.io/badge/release-3.0.7-E11D48?style=for-the-badge)](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.0.7)
+[![История изменений](https://img.shields.io/badge/GitHub-Releases-E11D48?style=for-the-badge)](https://github.com/NoizWorks/MediaLatch/releases)
 [![Chromium](https://img.shields.io/badge/Chromium-120%2B-22D3EE?style=for-the-badge&logo=googlechrome&logoColor=white)](https://github.com/NoizWorks/MediaLatch)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-10B981?style=for-the-badge)](docs/PRIVACY.md)
 [![Email](https://img.shields.io/badge/Email-%D0%9D%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C-64748B?style=for-the-badge)](mailto:always1337@vk.com)
@@ -18,7 +18,7 @@
 
 <p align="center"><img src="assets/readme/divider.svg?v=obsidian-loop-2" width="1120" alt=""></p>
 
-**[MediaLatch 3.0.7](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.0.7)** — последний выпуск на GitHub. Он поддерживает сохранение на компьютер, Google Drive и Яндекс Диск, отдельные правила для каждого хранилища и показ свободного места. Возможности разрабатываемой сборки перечислены в [состоянии проекта](docs/STATUS.md). Здесь доступны документация и подписанные пакеты.
+MediaLatch сохраняет файлы на компьютер, в Google Drive и на Яндекс Диск. У каждого хранилища свои правила. Текущую разработку описывает [состояние проекта](docs/STATUS.md).
 
 [Сайт проекта](https://noizworks.is-a.dev/medialatch/) · [Настройка облака](docs/CLOUD.ru.md)
 
@@ -33,13 +33,11 @@
 
 ## Установка и обновления
 
-<img src="assets/readme/install-ru.svg?v=obsidian-loop-2" width="1120" alt="Установка из Chrome Web Store или проверка подписанного CRX на GitHub">
+<img src="assets/readme/install-ru.svg?v=store-only" width="1120" alt="Установка и обновления MediaLatch только через Chrome Web Store">
 
-В Chrome установите расширение из [Chrome Web Store](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh). Магазин доставляет обновления автоматически.
+Устанавливайте и обновляйте MediaLatch **только через [Chrome Web Store](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh)**. Магазин доставляет обновления автоматически.
 
-Если браузер разрешает ручную установку, скачайте [.crx](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.0.7) из **Assets** и сравните [SHA-256](docs/CRX_CHECKSUMS.md). Архивы **Source code** GitHub собирает из файлов этого репозитория с документацией. Установить их как расширение нельзя.
-
-Ошибка `CRX_REQUIRED_PROOF_MISSING` означает, что браузер не принимает подпись канала распространения. Используйте магазин или способ установки, который разрешён вашим браузером. У ручной версии и версии из магазина могут быть разные ID расширения. Перед сменой канала экспортируйте нужные настройки и историю.
+В [GitHub Releases](https://github.com/NoizWorks/MediaLatch/releases) публикуются только заметки об изменениях. Автоматические архивы **Source code** содержат документацию и иллюстрации этого репозитория.
 
 ## Возможности в 3.0.7
 

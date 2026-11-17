@@ -1,6 +1,6 @@
 # Project status
 
-The latest GitHub release is **[3.0.7](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.0.7)**. It supports local saving, Google Drive and Yandex Disk. See the [CRX checksums](CRX_CHECKSUMS.md) for the signed packages. The [Chrome Web Store listing](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh) uses a separate publication and update channel.
+Install and update MediaLatch through [Chrome Web Store](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh). [GitHub Releases](https://github.com/NoizWorks/MediaLatch/releases) contains release notes. The published 3.0.7 build supports local saving, Google Drive and Yandex Disk.
 
 ## Development build
 
