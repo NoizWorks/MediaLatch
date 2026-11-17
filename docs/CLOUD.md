@@ -1,6 +1,6 @@
 # Cloud destinations: Google Drive and Yandex Disk
 
-This guide covers the Google Drive and Yandex Disk connections in Chrome Web Store version 3.0.7. For MEGA and Telegram in the 3.1.0 test build, see the [privacy policy](PRIVACY.md#data-flows-in-the-310-test-build) and [project status](STATUS.md#development-build).
+This guide covers the Google Drive and Yandex Disk connections in Chrome Web Store version 3.0.7. For MEGA and Telegram in the 3.1.1 test build, see the [privacy policy](PRIVACY.md#data-flows-in-the-311-test-build) and [project status](STATUS.md#development-build).
 
 MediaLatch can save new files to this PC (the default), to Google Drive or to Yandex Disk. Each destination has its own Saving profile: subfolder, folder layout, author/type/site labels and file-name rules. Missing cloud folders are created automatically. A cloud without a saved profile initially inherits the existing PC policy; the first policy save preserves that starting policy separately for each cloud.
 

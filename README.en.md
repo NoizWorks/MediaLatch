@@ -41,7 +41,7 @@ Install and update MediaLatch **exclusively through [Chrome Web Store](https://c
 
 ## Features in 3.0.7
 
-This version is available from Chrome Web Store. [Version 3.1.0](docs/STATUS.md#development-build) is awaiting manual testing before Store submission.
+This version is available from Chrome Web Store. [Version 3.1.1](docs/STATUS.md#development-build) is awaiting manual testing before Store submission.
 
 | Task | Available behavior |
 | --- | --- |
