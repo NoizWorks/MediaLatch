@@ -41,6 +41,8 @@ Install and update MediaLatch **exclusively through [Chrome Web Store](https://c
 
 ## Features in 3.0.7
 
+This version is available from Chrome Web Store. [Version 3.1.0](docs/STATUS.md#development-build) is awaiting manual testing before Store submission.
+
 | Task | Available behavior |
 | --- | --- |
 | Save selected media | Original-image discovery, progressive MP4/WebM and supported GIFs. Exact signed URLs stay intact. |
@@ -141,7 +143,7 @@ The current development interface in **Obsidian**, with sample data. The new bui
 
 ## Privacy and security
 
-MediaLatch has no backend or telemetry. Downloads contact the selected site, service or CDN. Settings, the queue, optional statistics, diagnostics and preview caches stay in extension storage. A manual version check contacts GitHub and does not install code.
+MediaLatch has no backend or telemetry. Downloads contact the selected site, service or CDN. Settings, the queue, optional statistics, diagnostics and preview caches stay in extension storage. Release checks contact GitHub. Chrome Web Store delivers extension updates.
 
 Page notices show a short download result. Folder grants and local paths stay private. A cloud save sends the selected file, its name and folder layout directly to the chosen provider. You can export reports and diagnostics manually; review the contents before sharing. HTTP/HTTPS permissions let the extension find selected media across sites. See the [privacy policy and permission explanations](docs/PRIVACY.md).
 

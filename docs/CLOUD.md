@@ -1,5 +1,7 @@
 # Cloud destinations: Google Drive and Yandex Disk
 
+This guide covers the Google Drive and Yandex Disk connections in Chrome Web Store version 3.0.7. For MEGA and Telegram in the 3.1.0 test build, see the [privacy policy](PRIVACY.md#data-flows-in-the-310-test-build) and [project status](STATUS.md#development-build).
+
 MediaLatch can save new files to this PC (the default), to Google Drive or to Yandex Disk. Each destination has its own Saving profile: subfolder, folder layout, author/type/site labels and file-name rules. Missing cloud folders are created automatically. A cloud without a saved profile initially inherits the existing PC policy; the first policy save preserves that starting policy separately for each cloud.
 
 **Evidence level.** The code, the vendor request shapes and the failure handling are covered by offline tests against fake servers that follow the vendors' documented contracts. Automated tests use no real account or network write. The owner reported successful Google browser OAuth in Helium. One previously failed 401,816-byte image was then retried from its prepared file in the real installation: Drive confirmed the same pre-generated file ID, size, MIME type, parent and ownership. GIF/video, expiry/recovery and Yandex acceptance are still pending. Native Chrome identity has not been accepted; see [Live acceptance](#live-acceptance-still-owed).

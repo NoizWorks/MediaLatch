@@ -1,10 +1,10 @@
 # Privacy policy
 
-Effective date: 2026-10-31. Product: MediaLatch. Maintainer: [NoizWorks/MediaLatch](https://github.com/NoizWorks/MediaLatch). Questions and issues: [GitHub Issues](https://github.com/NoizWorks/MediaLatch/issues).
+Updated November 17, 2026. MediaLatch is maintained by [NoizWorks](https://github.com/NoizWorks). See the [website privacy policy](https://noizworks.is-a.dev/privacy.html) for website and contact data.
 
 ## Build scope
 
-This policy describes the 3.0.7 package and source as of 2026-10-31; the older cache limits below retain their historical meaning. [Status](STATUS.md) identifies release and acceptance boundaries. Store declarations must match the actual uploaded package; a documentation update is not runtime or Store publication.
+This document describes [Chrome Web Store version 3.0.7](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh) and identifies changes in the 3.1.0 test build. See [project status](STATUS.md) for availability.
 
 | Preview/data behavior | Earlier 3.0.1 | Published 3.0.2 and current source |
 | --- | --- | --- |
@@ -35,6 +35,14 @@ Connected cloud accounts may supply total/used capacity for the advisory free-sp
 Opening Updates can contact GitHub's public releases API at most daily; an explicit check bypasses the daily cache. The request omits credentials and referrer. It checks versions and links to a fixed repository; it does not execute remote code or install an update. The latest release notes are bundled with the extension in English/Russian and need no request to read offline.
 
 Copy-link settings may produce links to third-party preview services. Copying such a link does not itself request that service. Opening or sharing it is a separate user action. Site-bound Copy controls also cover YouTube videos/Shorts, Bluesky, Threads, Tumblr, Twitch clips and Bilibili, alongside X, Instagram, TikTok, Reddit and Pixiv. They read the owning post/video address locally; a Copy-only integration does not add a media-download adapter.
+
+## Data flows in the 3.1.0 test build
+
+- **Google and Yandex.** Cloud credentials are stored in private extension storage and encrypted at rest using AES-GCM with a non-exportable browser-held key. Eligible Google Web OAuth sessions can renew in response to expiry or an authorization failure. If renewal cannot use the account and permissions already granted, you reconnect explicitly. Manual access tokens keep their own expiry.
+- **MEGA.** Signing in sends authentication requests directly to MEGA. MediaLatch keeps the encrypted session in the browser profile and uses MEGA's encryption for selected file uploads. Disconnecting removes the saved connection. Files already uploaded are managed in MEGA.
+- **Telegram and VK.** Connecting an account stores private credentials and the identifiers, names and available avatars needed to choose destinations. Telegram account sign-in uses QR and may ask for a two-step verification password, which is discarded after use. Draft text, source links, credits and attachments are stored locally. Choosing Telegram as a save destination or publishing a draft sends the selected content directly to the provider. Scheduling retains the selected destination, time and draft revision. Disconnecting clears the local connection. Published posts and messages remain under the provider's controls.
+- **Image tools.** Similar-image matching and image conversion run on your device. Choosing SauceNAO or IQDB sends a small JPEG derived from the selected preview to that service as `image.jpg`, without the original file, filename or source address.
+- **Support reminder.** The extension stores up to seven days of interface use, the most recent reminder date and whether you turned it off in the browser profile. Donation services receive a visit only when you open their links.
 
 ## Local storage
 
@@ -79,11 +87,12 @@ Debug events can be filtered, copied or exported only by user action. Exports co
 | `declarativeNetRequest` | Four header rules for the extension's own acquisition requests only (initiator: this extension): a Referer for `pximg.net`, `gelbooru.com` and `tiktok.com` (TikTok's video CDN refuses requests without it), and a Referer plus the fixed cookie `kira=1` for `oimages.anime-pictures.net`. Normal browsing, other extensions and lookalike domains are not modified |
 | `offscreen` | Local binary processing, GIF encoding, supported HLS assembly and owned blob lifecycle |
 | `identity` | Cloud destinations only: Native Google sign-in for Drive (`drive.file`), or the Google/Yandex browser sign-in window. It shows no install warning, does not read the browser profile's e-mail and is not used until you press Sign in |
+| `alarms` (3.1.0) | Tracks scheduled posts and resumes their local schedule after the service worker restarts |
 | HTTP/HTTPS host access | Inspect supported media targets and contact their source/CDN across sites |
 
 ## Limited use
 
-MediaLatch uses the data described here only to provide its media-saving, organization, feedback and optional diagnostics features. It does not use the data for advertising, sell it, or transmit history/diagnostic exports to the developer automatically. Network transfers are limited to the source/provider service needed by the requested save, explicit user sharing/copy/export, and the described GitHub release-version check.
+MediaLatch uses the data described here to provide media saving, organization, optional account connections, posting and diagnostics. It does not sell user data, use it for ads or automatically transmit history and diagnostic exports to the developer. Its use and transfer of information from Google APIs follows the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including its Limited Use requirements.
 
 ## Changes
 

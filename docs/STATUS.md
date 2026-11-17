@@ -4,12 +4,12 @@ Install and update MediaLatch through [Chrome Web Store](https://chromewebstore.
 
 ## Development build
 
+MediaLatch **3.1.0** is awaiting manual testing before submission to Chrome Web Store.
+
 - Downloads has List and Gallery views, grouped or chronological history, and local previews. Overview shows recent saves and retained activity. The toolbar shows the queue, destination and cached cloud space.
 - The interface has four themes and seven languages. About, Updates and the layout of the popup and channel picker have been revised. A dismissible support card can appear after seven days of use.
 - Pinterest support includes selected images and compatible video. Inline buttons can move clear of controls on a pin. Site layout and account access still affect saving.
 - MEGA and Posts & Drafts are in the development build. Posts supports Telegram account or bot connections and VK communities. Captions and attachments can stay in local drafts. Publishing and scheduling depend on platform permissions and the selected connection.
-
-These features await manual acceptance and a new release. Published release notes identify what is available to install.
 
 ## Published 3.0.7
 

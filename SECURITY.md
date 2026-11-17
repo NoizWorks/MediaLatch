@@ -6,7 +6,7 @@
 
 ### Поддерживаемые версии
 
-Исправления ориентированы на [последний стабильный выпуск](https://github.com/NoizWorks/MediaLatch/releases/latest). Отдельное сопровождение старых веток не обещается.
+Исправления ориентированы на версию из [Chrome Web Store](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh).
 
 ### Сообщить об уязвимости
 
@@ -33,7 +33,7 @@
 
 ### Supported versions
 
-Fixes target the [latest stable release](https://github.com/NoizWorks/MediaLatch/releases/latest). Separate maintenance of older branches is not promised.
+Fixes target the version available from [Chrome Web Store](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh).
 
 ### Report a vulnerability
 
