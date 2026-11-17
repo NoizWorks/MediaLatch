@@ -1,5 +1,53 @@
 # Changelog
 
+## 3.1.1
+
+### Русский
+
+- «Найти оригинал» доступно рядом с изображением на поддерживаемых сайтах и в контекстном меню. Сервис поиска получает уменьшенное превью после выбора.
+- Кнопки MediaLatch на X скрываются при движении карусели и возвращаются у нужного кадра после остановки, в том числе в публикациях с 20 медиа. На Reddit выровнена кнопка копирования ссылок.
+- Всплывающее окно открывается быстрее. Копирование ссылки подтверждается коротким уведомлением, а кнопки в окне поиска оригинала сохраняют положение при открытии.
+- Улучшена видимость клавиатурного фокуса. Переключение разделов стрелками происходит сразу, а превью сохраняет пропорции при переходе между фотографиями. Настройка уменьшения движения учитывается.
+
+### English
+
+- Find original is available next to images on supported sites and in the context menu. The selected search provider receives a small preview.
+- MediaLatch buttons on X hide while the carousel moves and return on the correct slide when it stops, including in posts with 20 media items. The copy-link button on Reddit stays aligned.
+- The popup loads faster. Copying a link shows a brief notification, and the Find original buttons stay in place as the dialog opens.
+- Keyboard focus is easier to see. Arrow keys switch sections immediately, and previews keep their proportions when you move between photos. MediaLatch respects reduced motion.
+
+## 3.1.0
+
+Сборка для ручной проверки. Опубликована версия 3.0.7.
+
+Build for manual testing. Version 3.0.7 is the published release.
+
+### Русский
+
+- Готовьте посты для Telegram-каналов и сообществ VK в разделе «Публикации и черновики». Черновики хранятся локально. Перед публикацией можно изменить текст, порядок вложений и подпись автора, а затем посмотреть превью.
+- В Telegram можно подключить бота или войти в свой аккаунт по QR-коду. Выбирайте канал во всплывающем окне и отправляйте файлы как медиа или документы.
+- В «Загрузках» можно выбрать сразу несколько записей, скопировать ссылки на посты или удалить записи из истории. Из 1–10 завершённых загрузок с доступными оригиналами можно собрать один черновик для Telegram.
+- Добавлено сохранение в MEGA с отдельными правилами папок и имён. В меню «Облако» сразу виден последний известный остаток места в Google Drive и на Яндекс Диске.
+- На Pinterest появились кнопки сохранения изображений и поддерживаемых видео. Если исходник в MP4, в настройках можно включить выбор между оригиналом и конвертацией в GIF.
+- В «Загрузках» можно найти похожие изображения в своей истории или отправить уменьшенное превью на поиск источника в SauceNAO либо IQDB.
+- Обновлено оформление тем Obsidian и Sakura, навигация и раздел «О проекте». Интерфейс доступен на семи языках.
+- Галерея группирует карточки по сайтам, а кнопки под превью оставляют кнопку воспроизведения и метки видимыми. При ошибке можно повторить загрузку или открыть пост. В «Обзоре» имена файлов показываются без служебного префикса даты.
+- Кнопки Pinterest сохраняют положение при прокрутке и появляются на поздно загруженных превью. При сохранении фото Reddit MediaLatch сначала проверяет оригинал и сохраняет подтверждённую ссылку на пост.
+- Карточка поддержки может появиться после семи дней использования. Её можно отложить или отключить. Дни использования считаются в браузере.
+
+### English
+
+- Prepare posts for Telegram channels and VK communities in Posts & Drafts. Drafts stay on this device. Edit the text, attachment order and author credit, then preview the post before publishing.
+- Connect a Telegram bot or sign in to your account with a QR code. Choose a channel from the popup and send files as media or documents.
+- Select multiple items in Downloads to copy their post links or remove them from history. Combine 1–10 completed saves with available originals into one Telegram draft.
+- Save to MEGA with separate folder and filename rules. The Cloud menu shows the last known free space in Google Drive and Yandex Disk as soon as it opens.
+- Save images and supported videos on Pinterest. For MP4 sources, you can enable a choice between saving the original and converting it to GIF.
+- Find similar images in your Downloads history or send a small preview to SauceNAO or IQDB to look up the source.
+- Obsidian, Sakura, navigation and the About page have been updated. The interface is available in seven languages.
+- Gallery can group cards by site. Actions sit below the preview, leaving Play and badges visible. Retry failed downloads or open the source post from the card. Overview displays filenames without the generated date prefix.
+- Pinterest buttons stay in place while scrolling and appear on previews that load late. When saving Reddit images, MediaLatch checks the original first and keeps the verified post link.
+- A support card may appear after seven days of use. You can dismiss it or turn it off. Usage days are counted in your browser.
+
 ## 3.0.7
 
 Stable GitHub release with verified owner-signed minified CRX and matching runtime package. The Chrome Web Store draft was rejected on 2026-10-31 for excessive site keywords (Yellow Argon). The public Store listing shows 3.0.7 as of 2026-11-05. OAuth branding for `noizworks.is-a.dev` is under review.

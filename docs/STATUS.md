@@ -4,10 +4,11 @@ Install and update MediaLatch through [Chrome Web Store](https://chromewebstore.
 
 ## Development build
 
-MediaLatch **3.1.0** is awaiting manual testing before submission to Chrome Web Store.
+MediaLatch **3.1.1** is awaiting manual testing before submission to Chrome Web Store. [Read the 3.1.1 release notes](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.1.1).
 
 - Downloads has List and Gallery views, grouped or chronological history, and local previews. Overview shows recent saves and retained activity. The toolbar shows the queue, destination and cached cloud space.
 - The interface has four themes and seven languages. About, Updates and the layout of the popup and channel picker have been revised. A dismissible support card can appear after seven days of use.
+- Find original is available next to images on supported sites and in the browser context menu. X carousel buttons stay with the selected slide and Reddit's copy-link action has been aligned.
 - Pinterest support includes selected images and compatible video. Inline buttons can move clear of controls on a pin. Site layout and account access still affect saving.
 - MEGA and Posts & Drafts are in the development build. Posts supports Telegram account or bot connections and VK communities. Captions and attachments can stay in local drafts. Publishing and scheduling depend on platform permissions and the selected connection.
 
