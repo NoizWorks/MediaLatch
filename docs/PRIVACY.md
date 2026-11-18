@@ -92,7 +92,7 @@ Debug events can be filtered, copied or exported only by user action. Exports co
 
 ## Limited use
 
-MediaLatch uses the data described here to provide media saving, organization, optional account connections, posting and diagnostics. It does not sell user data, use it for ads or automatically transmit history and diagnostic exports to the developer. Its use and transfer of information from Google APIs follows the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including its Limited Use requirements.
+MediaLatch uses the data described here to provide media saving, organization, optional account connections, posting and diagnostics. It does not sell user data, use it for ads or automatically transmit history and diagnostic exports to the developer. Its use and transfer of information from Google APIs follows the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including its Limited Use requirements. For `drive.file`, MediaLatch uses Google account identity and storage information to keep saves bound to the selected account and show capacity. Selected media, filenames and folder names go directly to Google Drive when saving. Browser OAuth tokens are encrypted in extension-private storage.
 
 ## Changes
 

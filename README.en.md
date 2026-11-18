@@ -39,9 +39,17 @@ Install and update MediaLatch **exclusively through [Chrome Web Store](https://c
 
 [GitHub Releases](https://github.com/NoizWorks/MediaLatch/releases) contains release notes. The automatic **Source code** archives contain this repository's documentation and artwork.
 
-## Features in 3.0.7
+Official extension ID: `cimghidldpjhhhngdhigddjfpcofhbmh`. After installation, open `chrome://extensions` and enable Developer mode to compare the ID.
 
-This version is available from Chrome Web Store. [Version 3.1.1](docs/STATUS.md#development-build) is awaiting manual testing before Store submission.
+## Features in 3.1.1
+
+[Version 3.1.1](docs/STATUS.md#development-build) is being prepared for Chrome Web Store. The Store currently offers 3.0.7.
+
+- Save to MEGA and Telegram in addition to your computer, Google Drive and Yandex Disk.
+- Create local drafts and publish to a Telegram channel or a VK community you manage.
+- Save supported Pinterest media and convert supported video from MP4 to GIF.
+- Find similar images in your downloads locally or search a selected preview with SauceNAO or IQDB.
+- Configure link previews for 12 platforms. Four themes include Obsidian and Sakura. The interface has seven languages.
 
 | Task | Available behavior |
 | --- | --- |

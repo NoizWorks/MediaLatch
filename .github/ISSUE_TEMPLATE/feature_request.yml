@@ -1,0 +1,16 @@
+name: Feature request
+description: Suggest a change to the MediaLatch workflow.
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: How should it work?
+      description: Include a concrete example if you have one.
+    validations:
+      required: true

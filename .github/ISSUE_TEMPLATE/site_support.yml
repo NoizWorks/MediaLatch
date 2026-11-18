@@ -1,0 +1,22 @@
+name: Site support
+description: Request support for selected media on a website.
+body:
+  - type: input
+    id: site
+    attributes:
+      label: Website and media type
+      placeholder: example.com, video in a post gallery
+    validations:
+      required: true
+  - type: input
+    id: example
+    attributes:
+      label: Public example URL
+      description: Provide an example accessible without private credentials or session parameters.
+  - type: textarea
+    id: workflow
+    attributes:
+      label: What should MediaLatch save?
+      description: Describe the selected media and whether the inline button or context menu should be available.
+    validations:
+      required: true
