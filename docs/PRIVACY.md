@@ -1,10 +1,10 @@
 # Privacy policy
 
-Updated November 17, 2026. MediaLatch is maintained by [NoizWorks](https://github.com/NoizWorks). See the [website privacy policy](https://noizworks.is-a.dev/privacy.html) for website and contact data.
+Updated November 18, 2026. MediaLatch is maintained by [NoizWorks](https://github.com/NoizWorks). See the [website privacy policy](https://noizworks.is-a.dev/privacy.html) for website and contact data.
 
 ## Build scope
 
-This document describes [Chrome Web Store version 3.0.7](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh) and identifies changes in the 3.1.1 test build. See [project status](STATUS.md) for availability.
+This policy describes privacy practices in MediaLatch 3.1.1 and identifies the data flows introduced after 3.0.7. The [Chrome Web Store listing](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh) shows the available version. See [project status](STATUS.md) for availability.
 
 | Preview/data behavior | Earlier 3.0.1 | Published 3.0.2 and current source |
 | --- | --- | --- |
@@ -40,7 +40,7 @@ Copy-link settings may produce links to third-party preview services. Copying su
 
 - **Google and Yandex.** Cloud credentials are stored in private extension storage and encrypted at rest using AES-GCM with a non-exportable browser-held key. Eligible Google Web OAuth sessions can renew in response to expiry or an authorization failure. If renewal cannot use the account and permissions already granted, you reconnect explicitly. Manual access tokens keep their own expiry.
 - **MEGA.** Signing in sends authentication requests directly to MEGA. MediaLatch keeps the encrypted session in the browser profile and uses MEGA's encryption for selected file uploads. Disconnecting removes the saved connection. Files already uploaded are managed in MEGA.
-- **Telegram and VK.** Connecting an account stores private credentials and the identifiers, names and available avatars needed to choose destinations. Telegram account sign-in uses QR and may ask for a two-step verification password, which is discarded after use. Draft text, source links, credits and attachments are stored locally. Choosing Telegram as a save destination or publishing a draft sends the selected content directly to the provider. Scheduling retains the selected destination, time and draft revision. Disconnecting clears the local connection. Published posts and messages remain under the provider's controls.
+- **Telegram and VK.** Connecting an account stores private credentials and the identifiers, names and available avatars needed to choose destinations. Telegram account sign-in uses the API ID and API Hash you provide to request a QR code. Telegram may ask for a two-step verification password, which is discarded after use. The extension encrypts the app credentials and session in private IndexedDB. The encryption key is stored in the same browser profile. Draft text, source links, credits and attachments are stored locally. Choosing Telegram as a save destination or publishing a draft sends the selected content directly to the provider. Scheduling retains the selected destination, time and draft revision. Disconnecting clears the local connection. When you disconnect or switch Telegram accounts, MediaLatch requests logout for the previous session. If Telegram does not confirm it, MediaLatch shows a warning. You can revoke the session in Telegram’s Devices settings. Published posts and messages remain under the provider's controls.
 - **Image tools.** Similar-image matching and image conversion run on your device. Find original can open from Downloads, the popup, an inline image button on supported sites or the browser context menu. Choosing Google Lens, Yandex Images, SauceNAO or IQDB sends a small JPEG derived from the selected preview to that service as `image.jpg`. The original file, original filename and source address stay on your device.
 - **Support reminder.** The extension stores up to seven days of interface use, the most recent reminder date and whether you turned it off in the browser profile. Donation services receive a visit only when you open their links.
 
