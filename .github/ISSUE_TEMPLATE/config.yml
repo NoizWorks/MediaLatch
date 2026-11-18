@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Private security report
+    url: https://github.com/NoizWorks/MediaLatch/security/policy
+    about: Use the private contact in the security policy for vulnerabilities or credential exposure.
+  - name: Setup and privacy
+    url: https://noizworks.is-a.dev/medialatch/
+    about: Find the connection guide, privacy policy and official Store link.

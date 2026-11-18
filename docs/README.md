@@ -1,5 +1,9 @@
 # Документация / Documentation
 
+Официальный ID расширения в Chrome Web Store / Official Chrome Web Store extension ID
+
+`cimghidldpjhhhngdhigddjfpcofhbmh`
+
 [Состояние / Status](STATUS.md) · [Roadmap](ROADMAP.md) · [Облако / Cloud](CLOUD.md) · [Настройка облака на русском](CLOUD.ru.md) · [Папки и имена](FOLDER_TEMPLATES.md) · [Локальные данные](LOCAL_DATA.md) · [Приватность](PRIVACY.md) · [Изменения](../CHANGELOG.md) · [Security Policy](../SECURITY.md)
 
 Версия **3.0.7** доступна в [Chrome Web Store](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh). Сборка **3.1.1** ждёт ручной проверки. В [GitHub Releases](https://github.com/NoizWorks/MediaLatch/releases) публикуются заметки об изменениях.

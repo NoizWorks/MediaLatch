@@ -1,0 +1,23 @@
+name: Bug report
+description: Report a problem you can reproduce in MediaLatch.
+body:
+  - type: input
+    id: environment
+    attributes:
+      label: Extension version and browser
+      placeholder: MediaLatch 3.1.1, Chrome 140
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps and expected result
+      description: Describe what you did, what happened and what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: debug
+    attributes:
+      label: Sanitized debug report
+      description: Use System → Debug → Copy report if available. Review the output and remove tokens, private URLs, personal information and file paths before posting.
+      render: text
