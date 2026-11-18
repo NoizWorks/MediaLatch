@@ -43,10 +43,10 @@ Official extension ID: `cimghidldpjhhhngdhigddjfpcofhbmh`. After installation, o
 
 ## Features in 3.1.1
 
-[Version 3.1.1](docs/STATUS.md#development-build) is being prepared for Chrome Web Store. The Store currently offers 3.0.7.
+These features are included in [MediaLatch 3.1.1](docs/STATUS.md#development-build). Chrome Web Store shows the version available for installation.
 
 - Save to MEGA and Telegram in addition to your computer, Google Drive and Yandex Disk.
-- Create local drafts and publish to a Telegram channel or a VK community you manage.
+- Create local drafts and publish to a Telegram channel or a VK community you manage. Connect a Telegram bot or sign in by QR with your own Telegram application’s API ID and API Hash.
 - Save supported Pinterest media and convert supported video from MP4 to GIF.
 - Find similar images in your downloads locally or search a selected preview with SauceNAO or IQDB.
 - Configure link previews for 12 platforms. Four themes include Obsidian and Sakura. The interface has seven languages.

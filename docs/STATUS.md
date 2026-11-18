@@ -1,19 +1,19 @@
 # Project status
 
-Install and update MediaLatch through [Chrome Web Store](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh). [GitHub Releases](https://github.com/NoizWorks/MediaLatch/releases) contains release notes. The published 3.0.7 build supports local saving, Google Drive and Yandex Disk.
+Install and update MediaLatch through [Chrome Web Store](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh). [GitHub Releases](https://github.com/NoizWorks/MediaLatch/releases) contains release notes. Check the store listing for the version available for installation.
 
 Official Chrome Web Store extension ID: `cimghidldpjhhhngdhigddjfpcofhbmh`.
 
 ## Development build
 
-MediaLatch **3.1.1** is awaiting manual testing before submission to Chrome Web Store. [Read the 3.1.1 release notes](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.1.1).
+The **3.1.1** release candidate is signed and has passed local verification. The store listing reports the version available to users. [Read the 3.1.1 release notes](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.1.1).
 
 - Downloads has List and Gallery views, grouped or chronological history, and local previews. Overview shows recent saves and retained activity. The toolbar shows the queue, destination and cached cloud space.
 - The interface has four themes and seven languages. About, Updates and the layout of the popup and channel picker have been revised. A dismissible support card can appear after seven days of use.
 - Find original is available next to images on supported sites and in the browser context menu. X carousel buttons stay with the selected slide and Reddit's copy-link action has been aligned.
 - Link Previews covers 12 platforms. Similar-image matching runs locally. Search providers receive a small preview only when selected.
 - Pinterest support includes selected images and compatible video. Inline buttons can move clear of controls on a pin. Site layout and account access still affect saving.
-- MEGA and Posts & Drafts are in the development build. Posts supports Telegram account or bot connections and VK communities. Captions and attachments can stay in local drafts. Publishing and scheduling depend on platform permissions and the selected connection.
+- MEGA and Posts & Drafts are in the development build. Posts & Drafts supports QR sign-in with your own Telegram application's API credentials, Telegram bots and VK communities. Captions and attachments can stay in local drafts. Publishing and scheduling depend on platform permissions and the selected connection.
 
 ## Published 3.0.7
 

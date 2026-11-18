@@ -1,6 +1,6 @@
 # Cloud destinations: Google Drive and Yandex Disk
 
-This guide covers the Google Drive and Yandex Disk connections in Chrome Web Store version 3.0.7. For MEGA and Telegram in the 3.1.1 test build, see the [privacy policy](PRIVACY.md#data-flows-in-the-311-test-build) and [project status](STATUS.md#development-build).
+This guide covers Google Drive, Yandex Disk, MEGA and Telegram in MediaLatch 3.1.1. Earlier versions support Google Drive and Yandex Disk. For connection data and release availability, see the [privacy policy](PRIVACY.md#data-flows-in-the-311-test-build) and [project status](STATUS.md#development-build).
 
 MediaLatch can save new files to this PC (the default), to Google Drive or to Yandex Disk. Each destination has its own Saving profile: subfolder, folder layout, author/type/site labels and file-name rules. Missing cloud folders are created automatically. A cloud without a saved profile initially inherits the existing PC policy; the first policy save preserves that starting policy separately for each cloud.
 
@@ -8,7 +8,9 @@ MediaLatch can save new files to this PC (the default), to Google Drive or to Ya
 
 ## Connecting in 3.1.1
 
-Verify the installed Chrome Web Store ID is `cimghidldpjhhhngdhigddjfpcofhbmh`. In **Saving & Storage → Storage**, connect Google Drive, Yandex Disk or MEGA. For Telegram, use a bot token or sign in by QR with your Telegram application's API ID and API Hash. Choose a destination you can post to. Connect VK separately for **Posts & Drafts**.
+Verify the installed Chrome Web Store ID is `cimghidldpjhhhngdhigddjfpcofhbmh`. In **Saving & Storage → Storage**, connect Google Drive, Yandex Disk or MEGA. For Telegram, use a bot token or get your application's API ID and API Hash at [my.telegram.org/apps](https://my.telegram.org/apps) and scan the QR code with Telegram. Choose a channel you can post to. Connect VK separately for **Posts & Drafts**.
+
+Disconnecting removes the account from MediaLatch. If Telegram does not confirm logout, you can end the session under **Telegram → Settings → Devices**. The same warning can appear for the previous session when you switch accounts.
 
 The Store build uses the production Google Web client for new sign-ins and requests `drive.file`. It keeps Chrome’s native Google client for connections already linked through native Chrome identity. [Privacy and Limited Use](https://noizworks.is-a.dev/privacy.html#google-data-title).
 
