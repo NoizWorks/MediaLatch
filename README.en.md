@@ -18,7 +18,7 @@
 
 <p align="center"><img src="assets/readme/divider.svg?v=obsidian-loop-2" width="1120" alt=""></p>
 
-MediaLatch saves to your computer, Google Drive or Yandex Disk. Each destination has its own saving rules. See [project status](docs/STATUS.md) for development features.
+MediaLatch saves locally, to Google Drive, Yandex Disk or MEGA, helps find original images, and prepares posts for Telegram and VK. Each destination has its own saving rules. See [project status](docs/STATUS.md) for current release details.
 
 [Product website](https://noizworks.is-a.dev/medialatch/) · [Cloud setup](docs/CLOUD.md)
 
@@ -43,29 +43,31 @@ Official extension ID: `cimghidldpjhhhngdhigddjfpcofhbmh`. After installation, o
 
 ## Features in 3.1.1
 
-These features are included in [MediaLatch 3.1.1](docs/STATUS.md#development-build). Chrome Web Store shows the version available for installation.
+These features are included in [MediaLatch 3.1.1](docs/STATUS.md#published-311), available on Chrome Web Store.
 
-- Save to MEGA and Telegram in addition to your computer, Google Drive and Yandex Disk.
-- Create local drafts and publish to a Telegram channel or a VK community you manage. Connect a Telegram bot or sign in by QR with your own Telegram application’s API ID and API Hash.
+- Save locally (Local-First) or to Google Drive, Yandex Disk, MEGA and Telegram.
+- Create local drafts in the **Posts & Drafts** studio and publish to a Telegram channel or VK community you manage, with crossposting, scheduling and an in-page post-preparation modal. Connect a Telegram bot or sign in by QR with your own Telegram application’s API ID and API Hash.
 - Save supported Pinterest media and convert supported video from MP4 to GIF.
-- Find similar images in your downloads locally or search a selected preview with SauceNAO or IQDB.
-- Configure link previews for 12 platforms. Four themes include Obsidian and Sakura. The interface has seven languages.
+- Use **Find original**: find similar images in your downloads locally or search a selected preview with Google Lens, Yandex Images, SauceNAO or IQDB.
+- Configure link previews for 12 platforms. Four themes (**Obsidian**, **Sakura**, **Dark**, **Light**) and seven interface languages (**EN**, **RU**, **ES**, **JA**, **KO**, **PT-BR**, **ZH-CN**).
 
 | Task | Available behavior |
 | --- | --- |
-| Save selected media | Original-image discovery, progressive MP4/WebM and supported GIFs. Exact signed URLs stay intact. |
-| Save a post | Multiple files from posts on X, Reddit, Pixiv, Pawchive and supported VK pages. See each file's result and cancel the remaining downloads. |
-| Choose a destination | Browser Downloads, an explicitly selected folder, Google Drive or Yandex Disk. Separate profiles, ordered levels and custom templates. |
+| Save selected media | Original-image discovery, progressive MP4/WebM, supported GIFs and optional MP4-to-GIF conversion. Exact signed URLs stay intact. |
+| Save a post | Multiple files from posts on X, Reddit, Pixiv, Pawchive, Pinterest and supported VK pages. See each file's result and cancel the remaining downloads. |
+| Choose a destination | Local-First (Browser Downloads or a chosen folder), Google Drive, Yandex Disk and MEGA. Separate profiles, path builder, ordered levels and custom templates. |
 | Name new files | Original basename or selected site/account and UTC download-start or known publication date/time fields. Metadata-based names omit the CDN basename; unknown fields are skipped. |
+| Find original | Local similar-image matching plus opt-in preview search via Google Lens, Yandex Images, SauceNAO and IQDB — from Downloads, the popup, an inline image button or the context menu. |
+| Posts & Drafts | Local drafts, crossposting, scheduling and an in-page post-preparation modal for Telegram channels (bot or QR sign-in) and VK communities. |
 | Preview saved media | Images, animated GIFs and MP4 with playback controls; fit/100%, zoom, pan, carousel buttons, arrow keys and swipe. |
-| Track results | Popup, manager, page notices, optional statistics, retry and cancellation. Filters for images/GIFs and videos. |
+| Track results | Popup, manager (List and Gallery), page notices, optional statistics, retry and cancellation. Filters for images/GIFs and videos. |
 | Copy preview links | 12 settings for X, Instagram, TikTok, YouTube videos/Shorts, Reddit, Pixiv, Bluesky, Threads, Twitch, Tumblr and Bilibili. Link conversion runs locally. |
-| Adjust the interface | Violet, Red, Blue, Dark and Light themes; English/Russian; keyboard navigation and reduced motion. |
+| Adjust the interface | Four themes (**Obsidian**, **Sakura**, **Dark**, **Light**); seven languages (**EN**, **RU**, **ES**, **JA**, **KO**, **PT-BR**, **ZH-CN**); keyboard navigation and reduced motion. |
 | Read release history | Browse release notes offline, with an Installed label on the matching version. |
 
 Click a thumbnail in the manager to open the viewer. From the popup, it opens over the active tab; from a page notice, it opens over the source page. The viewer runs in an isolated extension frame. On restricted browser pages, it opens in the manager. Small previews appear on hover.
 
-In 3.0.7 the local cache holds up to 2,048 thumbnails and 256 preview originals: 128 MiB per original, 512 MiB total and 30-day availability. If a file is too large or no longer cached, choose it from disk. The cache does not replace a backup or change saved files. Codec support depends on the browser.
+The local cache holds up to 2,048 thumbnails and 256 preview originals: 128 MiB per original, 512 MiB total and 30-day availability. If a file is too large or no longer cached, choose it from disk. The cache does not replace a backup or change saved files. Codec support depends on the browser.
 
 ### History and statistics
 
@@ -73,7 +75,7 @@ Open Overview → Local data and backups to export statistics and history as sep
 
 ### Cloud saving
 
-Choose this PC, Google Drive or Yandex Disk in Storage or the popup. Each destination keeps its own folder and naming profile. Ordinary inline Download stays local; selecting a cloud reveals adjacent selected/all gallery actions. Connect by OAuth or an access token; files go directly to the provider. [Setup and limits](docs/CLOUD.md).
+Choose this PC (Local-First), Google Drive, Yandex Disk or MEGA in Storage or the popup. Each destination keeps its own folder and naming profile. Ordinary inline Download stays local; selecting a cloud reveals adjacent selected/all gallery actions. Google Drive and Yandex Disk connect by OAuth or an access token, and MEGA uses an encrypted session; files go directly to the provider. [Setup and limits](docs/CLOUD.md).
 
 ### Folders and filenames
 
@@ -87,7 +89,7 @@ Downloads/
 
 Choose folder levels in order: site, account, media type, extension, date, year–month or year. Custom templates are available; levels with unavailable metadata are skipped. Account folders are enabled separately for supported services. Matched Danbooru/Moebooru posts can use a verified uploader; artist tags do not become account identity.
 
-Choose download-start or known publication dates for filenames, and which services use the rule. Publication comes only from verified X or supported Booru metadata; unknown values are skipped. Folder date levels use publication or operation-start time in UTC. Universal setup fills all three profiles while retaining their subfolders and labels. Changes affect new files.
+Choose download-start or known publication dates for filenames, and which services use the rule. Publication comes only from verified X or supported Booru metadata; unknown values are skipped. Folder date levels use publication or operation-start time in UTC. Universal setup fills destination profiles while retaining their subfolders and labels. Changes affect new files.
 
 Customize image, video and GIF folder labels independently for the `{type}` level. Defaults are `Image`, `Videos` and `GIF`; an empty field restores its default. Only the type level for new saves changes: custom labels, admitted job paths and existing files are preserved. Literal `Images` in a template remains one shared folder, not a media-type switch.
 
@@ -123,6 +125,7 @@ Support depends on the selected media, page layout and your access to the source
 | VK / VK Video | Photos, supported carousels, collages and feed videos, preview cards, opened players and native clip downloads. Experimental; other layouts and audio need further testing. |
 | TikTok / Instagram | Supported selected-video/Reel controls and posting usernames; separate-track-only feed sources can be unavailable. |
 | Pawchive / Sankaku | Originals linked to the selected post. Incomplete archive imports are marked. |
+| Pinterest | Selected images and supported MP4/HLS video, inline controls and context-menu saving. |
 | Booru families | Selected originals on supported engines, subject to authentication and site limits. |
 | Other HTTP(S) pages | Image attributes, srcset, metadata and links to the selected image's original. There is no universal video search. |
 
@@ -130,7 +133,7 @@ DRM, live streams, universal HLS/DASH, arbitrary gallery selection and YouTube d
 
 ## Interface
 
-The current development interface in **Obsidian**, with sample data. The new build will be manually tested before publication. [Provenance](assets/screenshots/provenance.json).
+The **MediaLatch 3.1.1** interface in **Obsidian**, with sample data. [Provenance](assets/screenshots/provenance.json).
 
 <details open><summary>Download manager</summary>
 
