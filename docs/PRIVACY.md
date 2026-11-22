@@ -36,7 +36,8 @@ Opening Updates can contact GitHub's public releases API at most daily; an expli
 
 Copy-link settings may produce links to third-party preview services. Copying such a link does not itself request that service. Opening or sharing it is a separate user action. Site-bound Copy controls also cover YouTube videos/Shorts, Bluesky, Threads, Tumblr, Twitch clips and Bilibili, alongside X, Instagram, TikTok, Reddit and Pixiv. They read the owning post/video address locally; a Copy-only integration does not add a media-download adapter.
 
-## Data flows in the 3.1.1 test build
+<a id="data-flows-in-the-311-test-build"></a>
+## Data flows in MediaLatch 3.1.1
 
 - **Google and Yandex.** Cloud credentials are stored in private extension storage and encrypted at rest using AES-GCM with a non-exportable browser-held key. Eligible Google Web OAuth sessions can renew in response to expiry or an authorization failure. If renewal cannot use the account and permissions already granted, you reconnect explicitly. Manual access tokens keep their own expiry.
 - **MEGA.** Signing in sends authentication requests directly to MEGA. MediaLatch keeps the encrypted session in the browser profile and uses MEGA's encryption for selected file uploads. Disconnecting removes the saved connection. Files already uploaded are managed in MEGA.

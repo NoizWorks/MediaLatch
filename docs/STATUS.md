@@ -4,16 +4,17 @@ Install and update MediaLatch through [Chrome Web Store](https://chromewebstore.
 
 Official Chrome Web Store extension ID: `cimghidldpjhhhngdhigddjfpcofhbmh`.
 
-## Development build
+<a id="development-build"></a>
+## Published 3.1.1
 
-The **3.1.1** release candidate is signed and has passed local verification. The store listing reports the version available to users. [Read the 3.1.1 release notes](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.1.1).
+**MediaLatch 3.1.1** is the current release published on [Chrome Web Store](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh). [Read the 3.1.1 release notes](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.1.1).
 
-- Downloads has List and Gallery views, grouped or chronological history, and local previews. Overview shows recent saves and retained activity. The toolbar shows the queue, destination and cached cloud space.
-- The interface has four themes and seven languages. About, Updates and the layout of the popup and channel picker have been revised. A dismissible support card can appear after seven days of use.
-- Find original is available next to images on supported sites and in the browser context menu. X carousel buttons stay with the selected slide and Reddit's copy-link action has been aligned.
-- Link Previews covers 12 platforms. Similar-image matching runs locally. Search providers receive a small preview only when selected.
-- Pinterest support includes selected images and compatible video. Inline buttons can move clear of controls on a pin. Site layout and account access still affect saving.
-- MEGA and Posts & Drafts are in the development build. Posts & Drafts supports QR sign-in with your own Telegram application's API credentials, Telegram bots and VK communities. Captions and attachments can stay in local drafts. Publishing and scheduling depend on platform permissions and the selected connection.
+- **Destinations & Path Builder**: Local-First saving (Browser Downloads or a chosen folder), Google Drive, Yandex Disk and MEGA, each with its own path builder, ordered folder levels and filename template rules.
+- **Posts & Drafts studio**: local drafts, crossposting, scheduling and an in-page post-preparation modal for Telegram channels (bot token or QR sign-in with your own Telegram application's API ID and API Hash) and VK communities. Publishing and scheduling depend on platform permissions and the selected connection.
+- **Find original**: local similar-image matching plus opt-in preview search (Google Lens, Yandex Images, SauceNAO, IQDB) from Downloads, the popup, inline image buttons on supported sites and the browser context menu.
+- **Themes & languages**: 4 interface themes (**Obsidian**, **Sakura**, **Dark**, **Light**) and 7 interface languages (**EN**, **RU**, **ES**, **JA**, **KO**, **PT-BR**, **ZH-CN**).
+- **Downloads & Popup**: List and Gallery views, grouped or chronological history, local previews, faster popup startup, destination switcher and cached cloud space. About, Updates and the channel picker use the updated layout; a dismissible support card can appear after seven days of use.
+- **Sites & Link Previews**: Pinterest support for selected images and compatible video, optional MP4-to-GIF conversion, X carousel button positioning (up to 20 items), aligned Reddit copy-link controls and Link Previews across 12 platforms. Keyboard focus visibility and reduced motion are respected.
 
 ## Published 3.0.7
 

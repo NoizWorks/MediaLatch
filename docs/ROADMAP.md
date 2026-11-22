@@ -1,6 +1,6 @@
 # Architecture roadmap
 
-Updated 2026-11-05. Published behavior refers to GitHub release 3.0.7. See [status](STATUS.md) for release identity and acceptance limits.
+Updated 2026-11-22. The current published Chrome Web Store release is **3.1.1**. See [status](STATUS.md) for release identity and acceptance limits.
 
 ## Implemented foundation
 
@@ -57,9 +57,9 @@ Unified Saving output and compact controls, indexed tokens and hover-check feedb
 - Measured Instagram scan reduction, suspended hidden stale-speed timers and incremental preview inserts, with no new permissions/dependencies or whole-browser memory claim.
 - Corrected source 115/115 plus exact minified GIF/UI/HTTP acceptance and verified 104-file CRX identity. Manual external-folder, broader live-site and device-performance rows remain open.
 
-## Unreleased after 3.0.7
+## Released in 3.1.1
 
-See [the development build status](STATUS.md#development-build) for implemented work and remaining manual acceptance.
+See [Published 3.1.1](STATUS.md#published-311) for the features shipped in 3.1.1 (MEGA, Posts & Drafts for Telegram and VK, Find original, Pinterest, 4 themes, 7 languages) and remaining manual acceptance.
 
 The committed development snapshot includes per-job atomic history writes, progress deltas, large-file Yandex checksum checks, preview-cache controls and named saving presets. The first history snapshot still loads in full. Additional local work and its validation are tracked separately from that snapshot.
 
