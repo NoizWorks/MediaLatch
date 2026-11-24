@@ -1,5 +1,25 @@
 # Changelog
 
+## 3.1.2
+
+### Русский
+
+- **Кнопки на медиа.** Micro-HUD сразу показывает действие при наведении или клавиатурном фокусе. Док 2×2 разделяет сохранение на ПК и в облако ровным крестом, рядом находится Quick Post («Подготовить публикацию»). У кнопок пачки общий значок `⧉` и счётчик до `99+`. Цвет обозначает назначение, а анимация нажатия выполняется на композиторе.
+- **X, Sankaku Complex и другие сайты.** Кнопки на X распознают видео и GIF, в том числе в цитатах, и располагаются поверх слоёв плеера. На поддерживаемых страницах Sankaku Complex восстановлено сохранение оригинальных изображений и MP4. Универсальный док лучше помещается на узких превью шириной 85–120 px.
+- **Публикации и черновики.** Sferum · No expiry выбран по умолчанию. Доступны vk.com · 24h и My application с PKCE. Reconnect VK & retry переподключает VK и повторяет отправку из редактора, сохраняя текст и медиа. Общая проверка лимитов учитывает до 10 вложений и 4096 символов при переключении на Telegram. Длинные имена остаются внутри панели Attached media.
+- **Загрузки, обзор и хранилища.** Группы сайтов можно свернуть с панели фильтров, а в галерее выбрать 3, 4 или 5 колонок. У видео видна длительность, портретные превью сохраняют кадрирование. График «Активность и объём» остаётся в IndexedDB после очистки завершённых загрузок. Очистка статистики вернулась в шапку обзора. Статус «Запись отключена» сохраняет высоту блока. Локальные данные и резервные копии теперь под инструкцией в «Хранилищах».
+- **Popup, доступность и уведомления.** Нативное окно 424×540 выполняет меньше работы при переходах. Остаток места на Drive помещается в одну строку. Раскрывающиеся панели используют облегчённую анимацию с учётом настройки движения. Подсказки `[?]` работают одинаково, у диалогов полные доступные имена, а ошибки появляются один раз рядом с действием. Уведомления на сайтах анимируются с первого показа.
+- **Замер Popup.** При замедлении CPU в 4 раза p95 интервала между кадрами в покое составил 6,2 мс. Обновление плотных очередей и переключение источника могут занимать больше времени.
+
+### English
+
+- **Inline media controls.** Micro-HUD shows each action as soon as you hover or focus its button. The 2×2 dock separates PC and cloud actions with an aligned cross divider, with Quick Post (Prepare post) beside it. Batch buttons share a `⧉` icon and a count up to `99+`. Color distinguishes the destinations, and press feedback runs on the compositor.
+- **X, Sankaku Complex and other sites.** Inline buttons on X detect video and GIFs, including media in quotes, and sit above playback overlays. Original image and MP4 saving works again on supported Sankaku Complex pages. The generic dock also fits thumbnails 85–120 px wide more reliably.
+- **Posts & Drafts.** Sferum · No expiry is the default VK preset. Alternatives include vk.com · 24h and My application with PKCE. Reconnect VK & retry reconnects VK from the composer and retries the send while keeping the draft and media. A shared check enforces the 10-attachment limit and the 4,096-character limit when switching to Telegram. Long filenames stay within Attached media.
+- **Downloads, Overview and Storage.** Collapse site groups from the filter bar and choose 3, 4 or 5 Gallery columns. Videos show duration and portrait previews keep their framing. Activity & Volume stays in IndexedDB when you clear finished downloads. Clear statistics is back in the Overview & Stats header. Recording is off keeps the layout steady. In Storage, the Local data and backups section is below Setup guide.
+- **Popup, accessibility and notifications.** Transitions in the native 424×540 popup do less layout work. Drive space fits on one line. Details panels use lighter motion and respect the motion preference. `[?]` help controls behave consistently, dialogs have full accessible names, and errors appear once next to the action. In-page notifications animate from their first appearance.
+- **Popup measurement.** With a 4× CPU slowdown, the native popup’s idle frame-interval p95 was 6.2 ms. Dense queue updates and source switches can take longer.
+
 ## 3.1.1
 
 ### Русский

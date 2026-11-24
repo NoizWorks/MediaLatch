@@ -5,9 +5,13 @@ Install and update MediaLatch through [Chrome Web Store](https://chromewebstore.
 Official Chrome Web Store extension ID: `cimghidldpjhhhngdhigddjfpcofhbmh`.
 
 <a id="development-build"></a>
+## MediaLatch 3.1.2
+
+[MediaLatch 3.1.2 release notes](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.1.2) cover inline video and GIF controls on X, VK reconnection in the composer, and updates to Downloads, Overview and Storage.
+
 ## Published 3.1.1
 
-**MediaLatch 3.1.1** is the current release published on [Chrome Web Store](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh). [Read the 3.1.1 release notes](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.1.1).
+[Read the 3.1.1 release notes](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.1.1).
 
 - **Destinations & Path Builder**: Local-First saving (Browser Downloads or a chosen folder), Google Drive, Yandex Disk and MEGA, each with its own path builder, ordered folder levels and filename template rules.
 - **Posts & Drafts studio**: local drafts, crossposting, scheduling and an in-page post-preparation modal for Telegram channels (bot token or QR sign-in with your own Telegram application's API ID and API Hash) and VK communities. Publishing and scheduling depend on platform permissions and the selected connection.

@@ -41,9 +41,9 @@ Install and update MediaLatch **exclusively through [Chrome Web Store](https://c
 
 Official extension ID: `cimghidldpjhhhngdhigddjfpcofhbmh`. After installation, open `chrome://extensions` and enable Developer mode to compare the ID.
 
-## Features in 3.1.1
+## Features in 3.1.2
 
-These features are included in [MediaLatch 3.1.1](docs/STATUS.md#published-311), available on Chrome Web Store.
+[What’s new in MediaLatch 3.1.2](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.1.2) · [Release status](docs/STATUS.md#medialatch-312)
 
 - Save locally (Local-First) or to Google Drive, Yandex Disk, MEGA and Telegram.
 - Create local drafts in the **Posts & Drafts** studio and publish to a Telegram channel or VK community you manage, with crossposting, scheduling and an in-page post-preparation modal. Connect a Telegram bot or sign in by QR with your own Telegram application’s API ID and API Hash.
@@ -71,7 +71,7 @@ The local cache holds up to 2,048 thumbnails and 256 preview originals: 128 MiB 
 
 ### History and statistics
 
-Open Overview → Local data and backups to export statistics and history as separate JSON files. Confirmed statistics restore replaces counters; history import adds missing records without starting downloads. Limits: 32 MiB UTF-8 per file and up to 50,000 history records per copy. Copies exclude media, source URLs and folder grants. History renders in windows while search covers the full retained list. [Details](docs/LOCAL_DATA.md).
+In 3.1.2, the Local data and backups section is below Setup guide in Storage. Export statistics and history as separate JSON files. Confirmed statistics restore replaces counters. History import adds missing records without starting downloads. Each UTF-8 file can be up to 32 MiB. A history backup can contain up to 50,000 records. Copies exclude media, source URLs and folder grants. History renders in windows while search covers the full retained list. [Backup formats](docs/LOCAL_DATA.md).
 
 ### Cloud saving
 

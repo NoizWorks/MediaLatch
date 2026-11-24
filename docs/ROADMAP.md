@@ -1,6 +1,6 @@
 # Architecture roadmap
 
-Updated 2026-11-22. The current published Chrome Web Store release is **3.1.1**. See [status](STATUS.md) for release identity and acceptance limits.
+Updated 2026-11-24. The latest [release notes](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.1.2) cover **3.1.2**. See [status](STATUS.md#medialatch-312) for release information.
 
 ## Implemented foundation
 
