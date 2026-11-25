@@ -1,6 +1,6 @@
 # Architecture roadmap
 
-Updated 2026-11-24. The latest [release notes](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.1.2) cover **3.1.2**. See [status](STATUS.md#medialatch-312) for release information.
+Updated 2026-11-25. The latest [release notes](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.1.3) cover **3.1.3**. See [status](STATUS.md#medialatch-313) for release information.
 
 ## Implemented foundation
 

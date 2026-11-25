@@ -1,11 +1,11 @@
 <div align="center">
 
-<p align="center"><img src="assets/readme/hero-ru.svg?v=obsidian-loop-2" width="1120" alt="MediaLatch — сохранение медиа, превью и папки"></p>
+<p align="center"><img src="https://noizworks.is-a.dev/medialatch/assets/hero-banner.webp" width="1280" alt="MediaLatch — сохранение медиа, превью и папки"></p>
 
 [![Chrome Web Store — Установить](https://img.shields.io/badge/Chrome_Web_Store-%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%82%D1%8C-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh)
 
 [![Stars](https://img.shields.io/github/stars/NoizWorks/MediaLatch?style=for-the-badge&color=22D3EE)](https://github.com/NoizWorks/MediaLatch/stargazers)
-[![История изменений](https://img.shields.io/badge/GitHub-Releases-E11D48?style=for-the-badge)](https://github.com/NoizWorks/MediaLatch/releases)
+[![Release v3.1.3](https://img.shields.io/badge/Release-v3.1.3-E11D48?style=for-the-badge)](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.1.3)
 [![Chromium](https://img.shields.io/badge/Chromium-120%2B-22D3EE?style=for-the-badge&logo=googlechrome&logoColor=white)](https://github.com/NoizWorks/MediaLatch)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-10B981?style=for-the-badge)](docs/PRIVACY.md)
 [![Email](https://img.shields.io/badge/Email-%D0%9D%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C-64748B?style=for-the-badge)](mailto:always1337@vk.com)
@@ -41,15 +41,15 @@ MediaLatch сохраняет файлы локально, в Google Drive, на
 
 Официальный ID расширения — `cimghidldpjhhhngdhigddjfpcofhbmh`. После установки откройте `chrome://extensions` и включите режим разработчика, чтобы сравнить ID.
 
-## Возможности в 3.1.2
+## Возможности в 3.1.3
 
-[Что изменилось в MediaLatch 3.1.2](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.1.2) · [Состояние выпуска](docs/STATUS.md#medialatch-312)
+[Что изменилось в MediaLatch 3.1.3](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.1.3) · [Состояние выпуска](docs/STATUS.md#medialatch-313)
 
 - Сохраняйте локально (Local-First), в Google Drive, Яндекс Диск, MEGA и Telegram.
-- Собирайте локальные черновики в студии **Posts & Drafts** и публикуйте в каналах Telegram и сообществах VK с поддержкой кросспостинга, планирования и модалки подготовки поста прямо на странице. В Telegram можно подключить бота или войти по QR-коду с API ID и API Hash своего приложения.
-- Сохраняйте поддерживаемые медиа с Pinterest и конвертируйте поддерживаемое видео из MP4 в GIF.
-- Используйте **«Найти оригинал» (Find original)**: ищите похожие изображения в своих загрузках на устройстве или отправляйте уменьшенное превью в Google Lens, Яндекс Картинки, SauceNAO либо IQDB.
-- Настраивайте превью ссылок для 12 платформ. Доступны четыре темы (**Obsidian**, **Sakura**, **Dark**, **Light**) и семь языков интерфейса (**RU**, **EN**, **ES**, **JA**, **KO**, **PT-BR**, **ZH-CN**).
+- Собирайте локальные черновики в студии **Posts & Drafts** и публикуйте в каналах Telegram и сообществах VK: кросспостинг, планирование (`Queue (+2h)` с пагинацией `>100` отложенных постов), кнопка подготовки поста `✈` на X.com и 37 поддерживаемых Booru-сайтах с автопарсингом `Source:` и автора, сохранение `Cred: {author}` при выключенном `Include source link`, дефолтные `#hashtags` в пресетах и безопасные ретраи VK без дублей `wall.post`.
+- Сохраняйте поддерживаемые медиа с X, Reddit, Pixiv, VK, Pinterest и Sankaku Complex (`sankakucomplex.com` и `sankaku.app`) и конвертируйте поддерживаемое видео из MP4 в GIF.
+- Используйте **«Найти оригинал» (Find original)**: ищите похожие изображения в своих загрузках на устройстве (сессия сохраняется при рестарте воркера) или отправляйте уменьшенное превью в Google Lens, Яндекс Картинки, SauceNAO либо IQDB.
+- Настраивайте превью ссылок для 12 платформ. Доступны четыре темы (**Obsidian**, **Sakura**, **Dark**, **Light**) и семь языков интерфейса (**RU**, **EN**, **ES**, **JA**, **KO**, **PT-BR**, **ZH-CN**), а поиск в нативном Popup `424×540` ускорен примерно в `4×`.
 
 | Задача | Что доступно |
 | --- | --- |

@@ -1,5 +1,23 @@
 # Changelog
 
+## 3.1.3
+
+### Русский
+
+- **Публикации и черновики (Posts & Drafts).** При выключенном `Include source link` сохраняется текстовый кредит автора (`Cred: {author}`) без ссылки. Исправлен тумблер `Copy text from the original post`, добавлены дефолтные `#hashtags` в пресетах и канале, запоминание режима `Queue` / `Now`, а также устранены гонки при открытии оверлея `✈` (`Prepare post`) и ложное пустое состояние.
+- **37 Booru-сайтов для постов.** Кнопка `✈` (`Prepare post`) работает на 37 поддерживаемых Booru-площадках с загрузкой оригинала и автопарсингом `Source:` и автора.
+- **VK.** Добавлены безопасные сетевые ретраи на этапе pre-publish с защитой от дублей `wall.post`, полная пагинация отложенных постов (`>100` записей для `Queue (+2h)`) и улучшенная диагностика авторизации и ошибок VK API.
+- **X, Pinterest и inline-панель.** Исправлено сохранение играющих нативных видео на X и видеопинов Pinterest, закрытие Micro-HUD по `Escape`, устранено наложение пилюли статуса на Micro-HUD и выровнена геометрия спиннера.
+- **Скорость, интерфейс и MV3.** Поиск в Popup `424×540` ускорен примерно в `4×`, оптимизирован рендеринг настроек, проверен контраст темы `Light` и адаптивность 7 локалей. Усилено MV3-восстановление очереди после `HTTP 429` через `chrome.alarms`, сохранение сессии `Find original` при рестарте воркера, проверки `sender`, очистка логов воркера от сырых URL/путей и раскрытия приватности (`Limited Use`, `login_hint`).
+
+### English
+
+- **Posts & Drafts.** Turning off `Include source link` keeps a text-only author credit (`Cred: {author}`) without a URL. Fixed the `Copy text from the original post` toggle, added default `#hashtags` in presets and channel settings, remembered `Queue` / `Now` mode, and eliminated race conditions and false empty states when opening the `✈` (`Prepare post`) overlay.
+- **37 Booru sites for post preparation.** Added inline `✈` (`Prepare post`) support across 37 Booru sites with original file loading and automatic `Source:` and author parsing.
+- **VK.** Added resilient pre-publish network retries with `wall.post` duplicate protection, full scheduled-post pagination (`>100` posts for `Queue (+2h)`), and clearer VK authorization and API error diagnostics.
+- **X, Pinterest and inline panel.** Fixed saving of playing native videos on X and Pinterest video pins, added `Escape` dismissal for the Micro-HUD, resolved overlap between the status pill and Micro-HUD, and aligned notice spinner geometry.
+- **Speed, UI and MV3 reliability.** Native `424×540` popup search is around `4×` faster alongside faster Options rendering, `Light` theme contrast polish, and responsive fixes across 7 locales. Strengthened MV3 download recovery after `HTTP 429` via `chrome.alarms`, preserved `Find original` sessions across worker restarts, tightened `sender` checks, cleaned worker debug logs of raw URLs and paths, and synced privacy disclosures (`Limited Use`, `login_hint`).
+
 ## 3.1.2
 
 ### Русский

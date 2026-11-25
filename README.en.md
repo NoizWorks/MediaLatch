@@ -1,11 +1,11 @@
 <div align="center">
 
-<p align="center"><img src="assets/readme/hero-en.svg?v=obsidian-loop-2" width="1120" alt="MediaLatch — save media, preview and organize"></p>
+<p align="center"><img src="https://noizworks.is-a.dev/medialatch/assets/hero-banner.webp" width="1280" alt="MediaLatch — save media, preview and organize"></p>
 
 [![Chrome Web Store — Install](https://img.shields.io/badge/Chrome_Web_Store-Install-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh)
 
 [![Stars](https://img.shields.io/github/stars/NoizWorks/MediaLatch?style=for-the-badge&color=22D3EE)](https://github.com/NoizWorks/MediaLatch/stargazers)
-[![Release notes](https://img.shields.io/badge/GitHub-Releases-E11D48?style=for-the-badge)](https://github.com/NoizWorks/MediaLatch/releases)
+[![Release v3.1.3](https://img.shields.io/badge/Release-v3.1.3-E11D48?style=for-the-badge)](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.1.3)
 [![Chromium](https://img.shields.io/badge/Chromium-120%2B-22D3EE?style=for-the-badge&logo=googlechrome&logoColor=white)](https://github.com/NoizWorks/MediaLatch)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-10B981?style=for-the-badge)](docs/PRIVACY.md)
 [![Email](https://img.shields.io/badge/Email-Contact-64748B?style=for-the-badge)](mailto:always1337@vk.com)
@@ -41,15 +41,15 @@ Install and update MediaLatch **exclusively through [Chrome Web Store](https://c
 
 Official extension ID: `cimghidldpjhhhngdhigddjfpcofhbmh`. After installation, open `chrome://extensions` and enable Developer mode to compare the ID.
 
-## Features in 3.1.2
+## Features in 3.1.3
 
-[What’s new in MediaLatch 3.1.2](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.1.2) · [Release status](docs/STATUS.md#medialatch-312)
+[What’s new in MediaLatch 3.1.3](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.1.3) · [Release status](docs/STATUS.md#medialatch-313)
 
 - Save locally (Local-First) or to Google Drive, Yandex Disk, MEGA and Telegram.
-- Create local drafts in the **Posts & Drafts** studio and publish to a Telegram channel or VK community you manage, with crossposting, scheduling and an in-page post-preparation modal. Connect a Telegram bot or sign in by QR with your own Telegram application’s API ID and API Hash.
-- Save supported Pinterest media and convert supported video from MP4 to GIF.
-- Use **Find original**: find similar images in your downloads locally or search a selected preview with Google Lens, Yandex Images, SauceNAO or IQDB.
-- Configure link previews for 12 platforms. Four themes (**Obsidian**, **Sakura**, **Dark**, **Light**) and seven interface languages (**EN**, **RU**, **ES**, **JA**, **KO**, **PT-BR**, **ZH-CN**).
+- Build local drafts in **Posts & Drafts** and publish to connected Telegram channels and VK communities: crossposting, scheduling (`Queue (+2h)` with `>100` scheduled-post pagination), inline `✈` post preparation on X.com and 37 supported Booru sites with automatic `Source:` and author parsing, text-only `Cred: {author}` when `Include source link` is off, default `#hashtags` in presets and resilient VK retries without `wall.post` duplicates.
+- Save supported media across X, Reddit, Pixiv, VK, Pinterest and Sankaku Complex (`sankakucomplex.com` and `sankaku.app`), and convert supported video from MP4 to GIF.
+- Use **Find original**: search similar images in your device downloads (session retained across worker restarts) or send a small preview to Google Lens, Yandex Images, SauceNAO or IQDB.
+- Configure link previews for 12 platforms. Choose from four themes (**Obsidian**, **Sakura**, **Dark**, **Light**) and seven interface languages (**EN**, **RU**, **ES**, **JA**, **KO**, **PT-BR**, **ZH-CN**), with `~4×` faster search in the native `424×540` popup.
 
 | Task | Available behavior |
 | --- | --- |
