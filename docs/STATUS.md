@@ -5,6 +5,10 @@ Install and update MediaLatch through [Chrome Web Store](https://chromewebstore.
 Official Chrome Web Store extension ID: `cimghidldpjhhhngdhigddjfpcofhbmh`.
 
 <a id="development-build"></a>
+## MediaLatch 3.1.3
+
+[MediaLatch 3.1.3 release notes](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.1.3) cover Posts & Drafts improvements (`Cred: {author}` without URL, `Copy text from the original post`, `#hashtags` defaults, `Queue`/`Now` persistence, 37 Booru sites with `✈` post prep and `Source:` parsing), resilient VK pre-publish retries and `>100` scheduled-post pagination, X/Pinterest video and Micro-HUD `Escape` fixes, `~4×` faster `424×540` popup search, Light theme/7-locale polish, and MV3 `429` alarm recovery.
+
 ## MediaLatch 3.1.2
 
 [MediaLatch 3.1.2 release notes](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.1.2) cover inline video and GIF controls on X, VK reconnection in the composer, and updates to Downloads, Overview and Storage.
