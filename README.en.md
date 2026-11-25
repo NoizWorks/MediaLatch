@@ -1,83 +1,108 @@
 <div align="center">
 
-<p align="center"><img src="https://noizworks.is-a.dev/medialatch/assets/hero-banner.webp" width="1280" alt="MediaLatch — save media, preview and organize"></p>
+<a href="https://noizworks.is-a.dev/medialatch/">
+  <img src="https://noizworks.is-a.dev/medialatch/assets/hero-banner.webp" width="1280" alt="MediaLatch — media saving, cloud destinations, and Posts & Drafts studio">
+</a>
 
-[![Chrome Web Store — Install](https://img.shields.io/badge/Chrome_Web_Store-Install-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh)
+<br>
 
-[![Stars](https://img.shields.io/github/stars/NoizWorks/MediaLatch?style=for-the-badge&color=22D3EE)](https://github.com/NoizWorks/MediaLatch/stargazers)
-[![Release v3.1.3](https://img.shields.io/badge/Release-v3.1.3-E11D48?style=for-the-badge)](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.1.3)
-[![Chromium](https://img.shields.io/badge/Chromium-120%2B-22D3EE?style=for-the-badge&logo=googlechrome&logoColor=white)](https://github.com/NoizWorks/MediaLatch)
-[![Manifest V3](https://img.shields.io/badge/Manifest-V3-10B981?style=for-the-badge)](docs/PRIVACY.md)
-[![Email](https://img.shields.io/badge/Email-Contact-64748B?style=for-the-badge)](mailto:always1337@vk.com)
-[![Boosty](https://img.shields.io/badge/Boosty-Support-FF6A00?style=for-the-badge&logo=boosty&logoColor=white)](https://boosty.to/fs0x1337)
-[![License](https://img.shields.io/badge/license-Proprietary-A6A6AF?style=for-the-badge)](LICENSE)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Install-e11d48?style=flat-square&labelColor=0f1117&logo=googlechrome&logoColor=ffffff)](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh)
+[![v3.1.3](https://img.shields.io/badge/Release-v3.1.3-6366f1?style=flat-square&labelColor=0f1117)](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.1.3)
+[![Chromium 120+](https://img.shields.io/badge/Chromium-120%2B-222738?style=flat-square&labelColor=0f1117&logo=googlechrome&logoColor=cbd5e1)](https://github.com/NoizWorks/MediaLatch)
+[![Manifest V3](https://img.shields.io/badge/Manifest-V3-222738?style=flat-square&labelColor=0f1117)](docs/PRIVACY.md)
+[![Stars](https://img.shields.io/github/stars/NoizWorks/MediaLatch?style=flat-square&label=Stars&labelColor=0f1117&color=222738)](https://github.com/NoizWorks/MediaLatch/stargazers)
+[![Boosty](https://img.shields.io/badge/Boosty-Support-6366f1?style=flat-square&labelColor=0f1117&logo=boosty&logoColor=ffffff)](https://boosty.to/fs0x1337)
 
-[**🇷🇺 Русский**](README.md) | [**🇬🇧 English**](README.en.md)
+<p>
+  <a href="README.md">Русский</a> ·
+  <strong>English</strong> ·
+  <a href="https://noizworks.is-a.dev/medialatch/">Website</a> ·
+  <a href="https://github.com/NoizWorks/MediaLatch/releases/tag/v3.1.3">Release Notes v3.1.3</a> ·
+  <a href="docs/PRIVACY.md">Privacy Policy</a> ·
+  <a href="SECURITY.md">Security</a>
+</p>
+
+<p>
+  <strong>MediaLatch</strong> is a Chromium extension that saves original images, videos, and GIFs using your folder rules, delivers files locally or to cloud storage, and prepares posts for Telegram and VK. No backend, no telemetry, and no companion app.
+</p>
 
 </div>
 
-<p align="center"><img src="assets/readme/divider.svg?v=obsidian-loop-2" width="1120" alt=""></p>
+---
 
-MediaLatch saves locally, to Google Drive, Yandex Disk or MEGA, helps find original images, and prepares posts for Telegram and VK. Each destination has its own saving rules. See [project status](docs/STATUS.md) for current release details.
+## Interface & Capabilities in v3.1.3
 
-[Product website](https://noizworks.is-a.dev/medialatch/) · [Cloud setup](docs/CLOUD.md)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://noizworks.is-a.dev/medialatch/assets/hero-downloads.webp">
+        <img src="https://noizworks.is-a.dev/medialatch/assets/hero-downloads.webp" width="100%" alt="MediaLatch Downloads gallery (3×/4×/5×), native 424×540 Popup, and cloud destination profiles">
+      </a>
+      <br>
+      <strong>Downloads, Gallery &amp; Cloud Profiles</strong><br>
+      Collapsible site groups (<code>3× / 4× / 5×</code>), built-in media viewer, and the native <code>424×540</code> popup with <code>~4×</code> faster search. Separate folder and naming profiles for <code>Local</code>, <code>Google Drive</code>, <code>Yandex Disk</code>, <code>MEGA</code>, and <code>Telegram</code>.
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://noizworks.is-a.dev/medialatch/assets/hero-posts.webp">
+        <img src="https://noizworks.is-a.dev/medialatch/assets/hero-posts.webp" width="100%" alt="Three-column Posts & Drafts studio: local drafts, composer, and live Telegram and VK preview">
+      </a>
+      <br>
+      <strong>Posts &amp; Drafts Studio</strong><br>
+      Three-column workspace: <code>Local drafts</code>, composer with <code>Cred: {author}</code> and default <code>#hashtags</code>, and live Telegram / VK preview. Inline <code>✈</code> post prep on X and 37 Booru sites with auto-parsed <code>Source:</code>, <code>Queue (+2h)</code> scheduling, and duplicate protection.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://noizworks.is-a.dev/medialatch/assets/hero-inline.webp">
+        <img src="https://noizworks.is-a.dev/medialatch/assets/hero-inline.webp" width="100%" alt="Monolithic 2×2 inline dock, Micro-HUD, Find original lookup, and Activity & Volume chart">
+      </a>
+      <br>
+      <strong>2×2 Inline Dock, Find Original &amp; Stats</strong><br>
+      Monolithic dock (<code>MP4 | GIF | ☁</code> + <code>✈</code>) and Micro-HUD with <code>Escape</code> dismissal. <strong>Find original</strong> (local matching + Google Lens, Yandex Images, SauceNAO, IQDB) and persistent <code>Activity &amp; Volume</code> stats in IndexedDB.
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://noizworks.is-a.dev/medialatch/assets/hero-themes.webp">
+        <img src="https://noizworks.is-a.dev/medialatch/assets/hero-themes.webp" width="100%" alt="Four MediaLatch themes: Obsidian, Sakura, Dark, and Light">
+      </a>
+      <br>
+      <strong>4 Themes &amp; 7 Languages</strong><br>
+      <code>Obsidian</code>, <code>Sakura</code>, <code>Dark</code>, and <code>Light</code> with full keyboard navigation and <code>prefers-reduced-motion</code> support. Localized in <code>EN</code>, <code>RU</code>, <code>ES</code>, <code>JA</code>, <code>KO</code>, <code>PT-BR</code>, and <code>ZH-CN</code>.
+    </td>
+  </tr>
+</table>
 
+---
 
-## About
+## Installation & Updates
 
-**MediaLatch** saves the images, videos and GIFs you select on a page. Use the browser menu or controls on supported sites, follow each file in the download manager, and open saved media in the built-in viewer.
+> [!IMPORTANT]
+> Install and update MediaLatch **exclusively through [Chrome Web Store](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh)**.
+> Official extension ID: `cimghidldpjhhhngdhigddjfpcofhbmh` — verify it after installation in `chrome://extensions` with Developer mode enabled.
 
-Configure folders, names for new files, notices and optional statistics. No companion app is required. The extension has no backend or telemetry.
+1. Open the [MediaLatch Chrome Web Store listing](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh) and click **Add to Chrome** (Chromium 120+).
+2. Updates are delivered automatically by the Store; [GitHub Releases](https://github.com/NoizWorks/MediaLatch/releases) publishes release notes only.
+3. Reload already-open tabs on supported sites after updating the extension.
 
-<p align="center"><img src="assets/readme/divider.svg?v=obsidian-loop-2" width="1120" alt=""></p>
+---
 
-## Installation and updates
+## Site Coverage & Saving Flow
 
-<img src="assets/readme/install-en.svg?v=store-only" width="1120" alt="Install and update MediaLatch exclusively through Chrome Web Store">
+MediaLatch resolves the selected media's original, verifies its source and bytes, saves it locally or to the chosen cloud destination, and updates the local preview cache. It never substitutes a file from a neighboring post.
 
-Install and update MediaLatch **exclusively through [Chrome Web Store](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh)**. The Store delivers updates automatically.
+| Platform | Images | Video & GIF | Inline `✈` & `Source:` |
+| --- | --- | --- | --- |
+| **X (Twitter)** | Originals and multi-media posts (up to 20 items) | Native MP4 video, GIFs, MP4 → GIF conversion | Inline `✈` button (drafts, author, post text) |
+| **Pixiv** | Original artwork page or verified multi-page list | — | Account folders; link previews |
+| **Reddit** | Original images | Native GIFs, progressive MP4, bounded unencrypted H.264/AAC HLS VOD | Link previews and context-menu saving |
+| **VK / VK Video** | Photos, carousels, and collages | Supported feed videos, players, and native clips (experimental) | Publishing & scheduling to VK communities |
+| **Pinterest** | Selected original images | Supported MP4/HLS video pins, MP4 → GIF conversion | Inline buttons and context menu |
+| **Sankaku Complex** (`sankakucomplex.com` / `sankaku.app`) | Originals linked to the selected post | Direct MP4 originals | Post-metadata saving |
+| **37 Booru sites** | Originals on supported engines (subject to site access) | Supported post videos/animations | Inline `✈` + auto-parsed `Source:` & author |
+| **TikTok / Instagram / RedGIFs** | Selected photos (Instagram, RedGIFs) | Selected videos/Reels, RedGIFs player (including separate-audio recovery) | Inline Copy/Save; 12 platforms in Link Previews |
+| **Other HTTP(S) pages** | Image attributes, `srcset`, metadata, and original links | No universal video search | Browser context-menu saving |
 
-[GitHub Releases](https://github.com/NoizWorks/MediaLatch/releases) contains release notes. The automatic **Source code** archives contain this repository's documentation and artwork.
-
-Official extension ID: `cimghidldpjhhhngdhigddjfpcofhbmh`. After installation, open `chrome://extensions` and enable Developer mode to compare the ID.
-
-## Features in 3.1.3
-
-[What’s new in MediaLatch 3.1.3](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.1.3) · [Release status](docs/STATUS.md#medialatch-313)
-
-- Save locally (Local-First) or to Google Drive, Yandex Disk, MEGA and Telegram.
-- Build local drafts in **Posts & Drafts** and publish to connected Telegram channels and VK communities: crossposting, scheduling (`Queue (+2h)` with `>100` scheduled-post pagination), inline `✈` post preparation on X.com and 37 supported Booru sites with automatic `Source:` and author parsing, text-only `Cred: {author}` when `Include source link` is off, default `#hashtags` in presets and resilient VK retries without `wall.post` duplicates.
-- Save supported media across X, Reddit, Pixiv, VK, Pinterest and Sankaku Complex (`sankakucomplex.com` and `sankaku.app`), and convert supported video from MP4 to GIF.
-- Use **Find original**: search similar images in your device downloads (session retained across worker restarts) or send a small preview to Google Lens, Yandex Images, SauceNAO or IQDB.
-- Configure link previews for 12 platforms. Choose from four themes (**Obsidian**, **Sakura**, **Dark**, **Light**) and seven interface languages (**EN**, **RU**, **ES**, **JA**, **KO**, **PT-BR**, **ZH-CN**), with `~4×` faster search in the native `424×540` popup.
-
-| Task | Available behavior |
-| --- | --- |
-| Save selected media | Original-image discovery, progressive MP4/WebM, supported GIFs and optional MP4-to-GIF conversion. Exact signed URLs stay intact. |
-| Save a post | Multiple files from posts on X, Reddit, Pixiv, Pawchive, Pinterest and supported VK pages. See each file's result and cancel the remaining downloads. |
-| Choose a destination | Local-First (Browser Downloads or a chosen folder), Google Drive, Yandex Disk and MEGA. Separate profiles, path builder, ordered levels and custom templates. |
-| Name new files | Original basename or selected site/account and UTC download-start or known publication date/time fields. Metadata-based names omit the CDN basename; unknown fields are skipped. |
-| Find original | Local similar-image matching plus opt-in preview search via Google Lens, Yandex Images, SauceNAO and IQDB — from Downloads, the popup, an inline image button or the context menu. |
-| Posts & Drafts | Local drafts, crossposting, scheduling and an in-page post-preparation modal for Telegram channels (bot or QR sign-in) and VK communities. |
-| Preview saved media | Images, animated GIFs and MP4 with playback controls; fit/100%, zoom, pan, carousel buttons, arrow keys and swipe. |
-| Track results | Popup, manager (List and Gallery), page notices, optional statistics, retry and cancellation. Filters for images/GIFs and videos. |
-| Copy preview links | 12 settings for X, Instagram, TikTok, YouTube videos/Shorts, Reddit, Pixiv, Bluesky, Threads, Twitch, Tumblr and Bilibili. Link conversion runs locally. |
-| Adjust the interface | Four themes (**Obsidian**, **Sakura**, **Dark**, **Light**); seven languages (**EN**, **RU**, **ES**, **JA**, **KO**, **PT-BR**, **ZH-CN**); keyboard navigation and reduced motion. |
-| Read release history | Browse release notes offline, with an Installed label on the matching version. |
-
-Click a thumbnail in the manager to open the viewer. From the popup, it opens over the active tab; from a page notice, it opens over the source page. The viewer runs in an isolated extension frame. On restricted browser pages, it opens in the manager. Small previews appear on hover.
-
-The local cache holds up to 2,048 thumbnails and 256 preview originals: 128 MiB per original, 512 MiB total and 30-day availability. If a file is too large or no longer cached, choose it from disk. The cache does not replace a backup or change saved files. Codec support depends on the browser.
-
-### History and statistics
-
-In 3.1.2, the Local data and backups section is below Setup guide in Storage. Export statistics and history as separate JSON files. Confirmed statistics restore replaces counters. History import adds missing records without starting downloads. Each UTF-8 file can be up to 32 MiB. A history backup can contain up to 50,000 records. Copies exclude media, source URLs and folder grants. History renders in windows while search covers the full retained list. [Backup formats](docs/LOCAL_DATA.md).
-
-### Cloud saving
-
-Choose this PC (Local-First), Google Drive, Yandex Disk or MEGA in Storage or the popup. Each destination keeps its own folder and naming profile. Ordinary inline Download stays local; selecting a cloud reveals adjacent selected/all gallery actions. Google Drive and Yandex Disk connect by OAuth or an access token, and MEGA uses an encrypted session; files go directly to the provider. [Setup and limits](docs/CLOUD.md).
-
-### Folders and filenames
+<details>
+<summary><strong>Folders, filename rules, preview cache &amp; cloud profiles</strong></summary>
 
 ```text
 Downloads/
@@ -87,91 +112,41 @@ Downloads/
     └── danbooru/uploader/Image/artwork.jpg
 ```
 
-Choose folder levels in order: site, account, media type, extension, date, year–month or year. Custom templates are available; levels with unavailable metadata are skipped. Account folders are enabled separately for supported services. Matched Danbooru/Moebooru posts can use a verified uploader; artist tags do not become account identity.
+- **Destinations:** `Local-First` (Browser Downloads or a chosen folder), `Google Drive`, `Yandex Disk`, `MEGA`, and `Telegram`. Each destination keeps its own folder and naming profile; Universal setup fills destination profiles while retaining their subfolders and labels. Ordinary inline Download stays local; connecting a cloud reveals adjacent cloud actions. Details: [Cloud setup](docs/CLOUD.md).
+- **Levels & templates:** site, account, media type (`{type}` defaults to `Image`, `Videos`, `GIF`, each customizable independently; literal `Images` stays one shared folder), extension, date/year-month/year, or a custom template. Unknown levels are skipped; rule changes apply only to new saves and never rename existing files. Details: [Folder templates](docs/FOLDER_TEMPLATES.md).
+- **Filenames & collisions:** original basename or composed fields (site, account, UTC download-start time or verified publication date on X and supported Booru posts). Colliding filenames receive a suffix even after clearing history and statistics — existing files are never overwritten. Long filenames are shortened; excessively long Windows paths may still be rejected by the browser or OS.
+- **Folder access & backups:** if the browser re-prompts for folder permission, use **Restore folder access** in settings. The local preview cache stores up to `2,048` thumbnails and `256` originals (`128 MiB`/file, `512 MiB` total, `30 days`). History (up to `50,000` records) and statistics export/restore separately as JSON (up to `32 MiB` UTF-8, excluding media, URLs, and folder grants). Details: [Local data formats](docs/LOCAL_DATA.md).
 
-Choose download-start or known publication dates for filenames, and which services use the rule. Publication comes only from verified X or supported Booru metadata; unknown values are skipped. Folder date levels use publication or operation-start time in UTC. Universal setup fills destination profiles while retaining their subfolders and labels. Changes affect new files.
-
-Customize image, video and GIF folder labels independently for the `{type}` level. Defaults are `Image`, `Videos` and `GIF`; an empty field restores its default. Only the type level for new saves changes: custom labels, admitted job paths and existing files are preserved. Literal `Images` in a template remains one shared folder, not a media-type switch.
-
-If the browser requests access to a saved folder again, use Restore folder access in settings. The selected destination stays saved. Completed browser downloads can show their file in its folder after verification. Direct chosen-directory exports explain the file-manager API limitation; no system companion is required.
-
-When names match, the extension adds a suffix, even after history and statistics are cleared. Existing files are not overwritten. Long filenames may be shortened to fit path limits. The browser or filesystem may still reject an excessively long Windows path.
+</details>
 
 <details>
-  <summary>Saving settings</summary>
-  <img src="assets/screenshots/saving-en.jpg?v=obsidian-20261117" alt="Folder and filename settings" width="1280">
-</details>
+<summary><strong>Technical caveats &amp; compatibility</strong></summary>
 
-<p align="center"><img src="assets/readme/divider.svg?v=obsidian-loop-2" width="1120" alt=""></p>
-
-## From selection to file
-
-<p align="center"><img src="assets/readme/flow-en.svg?v=obsidian-loop-2" width="1120" alt="Select media → verify its source and bytes → save → local preview"></p>
-
-The extension finds the selected media's original, checks the source and file, then saves it to the destination folder. It does not substitute a file from a neighboring post.
-
-## Site coverage
-
-A site having Copy does not imply support for downloading its media. Twitch VODs retain their original address; playback, audio and galleries depend on the selected mirror and messenger. Reload already open site tabs after updating the extension.
-
-Support depends on the selected media, page layout and your access to the source.
-
-| Site or family | Scope |
-| --- | --- |
-| X / Twitter | Images and video, conversion of supported MP4 animations to GIF, and multiple files from a post. |
-| Reddit | Images, native GIFs, declared progressive video and bounded unencrypted H.264/AAC HLS VOD. |
-| Pixiv | The original of the selected artwork page or its verified page list; account folders. |
-| RedGIFs | Selected images and player media, including supported separate-audio recovery. |
-| VK / VK Video | Photos, supported carousels, collages and feed videos, preview cards, opened players and native clip downloads. Experimental; other layouts and audio need further testing. |
-| TikTok / Instagram | Supported selected-video/Reel controls and posting usernames; separate-track-only feed sources can be unavailable. |
-| Pawchive / Sankaku | Originals linked to the selected post. Incomplete archive imports are marked. |
-| Pinterest | Selected images and supported MP4/HLS video, inline controls and context-menu saving. |
-| Booru families | Selected originals on supported engines, subject to authentication and site limits. |
-| Other HTTP(S) pages | Image attributes, srcset, metadata and links to the selected image's original. There is no universal video search. |
-
-DRM, live streams, universal HLS/DASH, arbitrary gallery selection and YouTube downloads are not supported. A 403, expired URL, missing original or unsupported stream is reported as a failure. Files from neighboring posts are not used as a fallback.
-
-## Interface
-
-The **MediaLatch 3.1.1** interface in **Obsidian**, with sample data. [Provenance](assets/screenshots/provenance.json).
-
-<details open><summary>Download manager</summary>
-
-![Download manager](assets/screenshots/downloads-en.jpg?v=obsidian-20261117)
-
-![Gallery](assets/screenshots/gallery-en.jpg?v=obsidian-20261117)
-
-</details>
-<details><summary>Statistics, popup and viewer</summary>
-
-![Statistics](assets/screenshots/statistics-en.jpg?v=obsidian-20261117)
-![Popup](assets/screenshots/popup-en.jpg?v=obsidian-20261117)
-![Viewer](assets/screenshots/viewer-en.jpg?v=obsidian-20261117)
+- **Link Previews (12 platforms):** X, Instagram, TikTok, YouTube videos/Shorts, Reddit, Pixiv, Bluesky, Threads, Twitch, Tumblr, and Bilibili. Link conversion runs locally. Having a **Copy** control on a site does not imply support for downloading its media.
+- **Twitch VODs & mirrors:** Twitch VODs retain their original URL; playback, audio, and galleries depend on the chosen mirror service and messenger.
+- **Tab reload after updates:** reload already-open site tabs after updating the extension so content scripts refresh cleanly.
+- **Not supported:** DRM, live streams, universal HLS/DASH, arbitrary gallery selection, and YouTube downloads. `HTTP 403`, expired URLs, missing originals, and unsupported streams are reported as failures without falling back to a neighboring post.
+- **Codecs & Windows paths:** playback in the built-in viewer depends on browser codecs; Windows path-length limits remain governed by the browser and filesystem.
 
 </details>
 
-<p align="center"><img src="assets/readme/divider.svg?v=obsidian-loop-2" width="1120" alt=""></p>
+---
 
-## Privacy and security
+## Privacy (Local-First)
 
-MediaLatch has no backend or telemetry. Downloads contact the selected site, service or CDN. Settings, the queue, optional statistics, diagnostics and preview caches stay in extension storage. Release checks contact GitHub. Chrome Web Store delivers extension updates.
+- **No backend or telemetry:** MediaLatch operates no developer media server, analytics, or advertising. Downloads contact the selected source/CDN directly; cloud uploads go directly to the connected provider.
+- **Encrypted credentials & sessions:** `Google Drive`, `Yandex Disk`, `MEGA`, `Telegram`, and `VK` credentials are stored in private extension storage and encrypted at rest (AES-GCM with a non-exportable browser-held key).
+- **Private image lookup:** local similar-image matching runs on your device; external lookup via Google Lens, Yandex Images, SauceNAO, or IQDB triggers only on explicit user action and sends only a small `image.jpg` preview without the original file, filename, or source URL.
+- **Google Limited Use:** Google API data use (`drive.file`) complies with the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including Limited Use requirements.
+- **Data control:** history, optional statistics, local drafts, and sanitized debug logs remain in the browser profile and can be cleared manually. Release checks query GitHub's public releases API without credentials.
 
-Page notices show a short download result. Folder grants and local paths stay private. A cloud save sends the selected file, its name and folder layout directly to the chosen provider. You can export reports and diagnostics manually; review the contents before sharing. HTTP/HTTPS permissions let the extension find selected media across sites. See the [privacy policy and permission explanations](docs/PRIVACY.md).
+Details: [Privacy Policy](docs/PRIVACY.md) · [Website Privacy Policy](https://noizworks.is-a.dev/privacy.html) · [Security Policy](SECURITY.md) · [Project Status](docs/STATUS.md)
 
-Report bugs, problems and vulnerabilities to [always1337@vk.com](mailto:always1337@vk.com) or [Issues](https://github.com/NoizWorks/MediaLatch/issues). Send vulnerability details and sensitive data by email. See the [Security Policy](SECURITY.md) for what to include and how to test.
+---
 
-## Support the project
+## Contacts, Support & License
 
-Support development on [Boosty](https://boosty.to/fs0x1337), [DonationAlerts](https://dalink.to/fs0x1337) or [CloudTips](https://pay.cloudtips.ru/p/da0d3dbe). Send questions and feedback to [@fs0x1337](https://t.me/fs0x1337) on Telegram, [Issues](https://github.com/NoizWorks/MediaLatch/issues) or [email](mailto:always1337@vk.com).
-
-## License
-
-Starting with 3.0.0, project-owned code and artwork use the [proprietary license](LICENSE). Earlier GPL recipients keep their existing rights. Third-party components retain their [licenses and notices](THIRD_PARTY_NOTICES.txt).
-
-Development source and its Git history are kept separately. The JavaScript inside a CRX can still be inspected after minification.
-
-[Changelog](CHANGELOG.md) · [Privacy](docs/PRIVACY.md) · [Security Policy](SECURITY.md) · [Boosty](https://boosty.to/fs0x1337)
-
-
-
-[Website](https://noizworks.is-a.dev/medialatch/) · [Privacy policy](https://noizworks.is-a.dev/privacy.html)
+- **Feedback & bug reports:** [GitHub Issues](https://github.com/NoizWorks/MediaLatch/issues) · Telegram [@fs0x1337](https://t.me/fs0x1337) · Email [always1337@vk.com](mailto:always1337@vk.com) *(send vulnerability reports and sensitive details by email only)*
+- **Support development:** [Boosty](https://boosty.to/fs0x1337) · [DonationAlerts](https://dalink.to/fs0x1337) · [CloudTips](https://pay.cloudtips.ru/p/da0d3dbe)
+- **Docs & changelog:** [CHANGELOG.md](CHANGELOG.md) · [docs/CLOUD.md](docs/CLOUD.md) · [docs/STATUS.md](docs/STATUS.md)
+- **License:** starting with `3.0.0`, project-owned code and artwork use the [proprietary license](LICENSE) (earlier GPL recipients retain their existing rights; third-party notices in [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt)).
