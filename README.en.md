@@ -7,7 +7,7 @@
 <br>
 
 [![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Install-e11d48?style=flat-square&labelColor=0f1117&logo=googlechrome&logoColor=ffffff)](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh)
-[![v3.1.3](https://img.shields.io/badge/Release-v3.1.3-6366f1?style=flat-square&labelColor=0f1117)](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.1.3)
+[![v3.2.0](https://img.shields.io/badge/Release-v3.2.0-6366f1?style=flat-square&labelColor=0f1117)](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.2.0)
 [![Chromium 120+](https://img.shields.io/badge/Chromium-120%2B-222738?style=flat-square&labelColor=0f1117&logo=googlechrome&logoColor=cbd5e1)](https://github.com/NoizWorks/MediaLatch)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-222738?style=flat-square&labelColor=0f1117)](docs/PRIVACY.md)
 [![Stars](https://img.shields.io/github/stars/NoizWorks/MediaLatch?style=flat-square&label=Stars&labelColor=0f1117&color=222738)](https://github.com/NoizWorks/MediaLatch/stargazers)
@@ -17,20 +17,20 @@
   <a href="README.md">Русский</a> ·
   <strong>English</strong> ·
   <a href="https://noizworks.is-a.dev/medialatch/">Website</a> ·
-  <a href="https://github.com/NoizWorks/MediaLatch/releases/tag/v3.1.3">Release Notes v3.1.3</a> ·
+  <a href="https://github.com/NoizWorks/MediaLatch/releases/tag/v3.2.0">Release Notes v3.2.0</a> ·
   <a href="docs/PRIVACY.md">Privacy Policy</a> ·
   <a href="SECURITY.md">Security</a>
 </p>
 
 <p>
-  <strong>MediaLatch</strong> is a Chromium extension that saves original images, videos, and GIFs using your folder rules, delivers files locally or to cloud storage, and prepares posts for Telegram and VK. No backend, no telemetry, and no companion app.
+  <strong>MediaLatch</strong> is a Chromium extension that saves original images, videos, and GIFs using your folder rules, captures clean native-resolution video frames (up to 1080p/4K/8K PNG), delivers files locally or to cloud storage, and prepares posts for Telegram and VK. No backend, no telemetry, and no companion app.
 </p>
 
 </div>
 
 ---
 
-## Interface & Capabilities in v3.1.3
+## Interface & Capabilities in v3.2.0
 
 <table>
   <tr>
@@ -40,7 +40,7 @@
       </a>
       <br>
       <strong>Downloads, Gallery &amp; Cloud Profiles</strong><br>
-      Collapsible site groups (<code>3× / 4× / 5×</code>), built-in media viewer, and the native <code>424×540</code> popup with <code>~4×</code> faster search. Separate folder and naming profiles for <code>Local</code>, <code>Google Drive</code>, <code>Yandex Disk</code>, <code>MEGA</code>, and <code>Telegram</code>.
+      Collapsible site groups (<code>3× / 4× / 5×</code>), built-in media viewer, and the native <code>424×540</code> popup with fast search and instant video frame actions (<code>Save frame</code>, <code>Copy PNG</code>, 1-click <code>Send PNG to Telegram</code>). Separate folder and naming profiles for <code>Local</code>, <code>Google Drive</code>, <code>Yandex Disk</code>, <code>MEGA</code>, and <code>Telegram</code>.
     </td>
     <td width="50%" valign="top">
       <a href="https://noizworks.is-a.dev/medialatch/assets/hero-posts.webp">
@@ -57,16 +57,16 @@
         <img src="https://noizworks.is-a.dev/medialatch/assets/hero-inline.webp" width="100%" alt="Monolithic 2×2 inline dock, Micro-HUD, Find original lookup, and Activity & Volume chart">
       </a>
       <br>
-      <strong>2×2 Inline Dock, Find Original &amp; Stats</strong><br>
-      Monolithic dock (<code>MP4 | GIF | ☁</code> + <code>✈</code>) and Micro-HUD with <code>Escape</code> dismissal. <strong>Find original</strong> (local matching + Google Lens, Yandex Images, SauceNAO, IQDB) and persistent <code>Activity &amp; Volume</code> stats in IndexedDB.
+      <strong>2×2 Inline Dock, Frame Capture &amp; Find Original</strong><br>
+      Monolithic dock (<code>MP4 | GIF | ☁</code> + <code>✈</code>), Micro-HUD with <code>Escape</code> dismissal, and native-resolution video frame capture (up to 1080p/4K/8K lossless PNG without player UI via <code>OffscreenCanvas</code>, <code>Alt+Shift+S</code> shortcut including fullscreen, context menu &amp; inline button on supported sites — with <code>0</code> new browser permissions). <strong>Find original</strong> and persistent <code>Activity &amp; Volume</code> stats in IndexedDB.
     </td>
     <td width="50%" valign="top">
       <a href="https://noizworks.is-a.dev/medialatch/assets/hero-themes.webp">
         <img src="https://noizworks.is-a.dev/medialatch/assets/hero-themes.webp" width="100%" alt="Four MediaLatch themes: Obsidian, Sakura, Dark, and Light">
       </a>
       <br>
-      <strong>4 Themes &amp; 7 Languages</strong><br>
-      <code>Obsidian</code>, <code>Sakura</code>, <code>Dark</code>, and <code>Light</code> with full keyboard navigation and <code>prefers-reduced-motion</code> support. Localized in <code>EN</code>, <code>RU</code>, <code>ES</code>, <code>JA</code>, <code>KO</code>, <code>PT-BR</code>, and <code>ZH-CN</code>.
+      <strong>Welcome / Quick Start, 4 Themes &amp; 7 Languages</strong><br>
+      Redesigned Welcome / Quick Start screen with a live 4-theme switcher (<code>Obsidian</code>, <code>Sakura</code>, <code>Dark</code>, <code>Light</code>) and quick save-destination setup. Full keyboard navigation, <code>prefers-reduced-motion</code> support, and 7 locales: <code>EN</code>, <code>RU</code>, <code>ES</code>, <code>JA</code>, <code>KO</code>, <code>PT-BR</code>, and <code>ZH-CN</code>.
     </td>
   </tr>
 </table>
@@ -99,7 +99,7 @@ MediaLatch resolves the selected media's original, verifies its source and bytes
 | **Sankaku Complex** (`sankakucomplex.com` / `sankaku.app`) | Originals linked to the selected post | Direct MP4 originals | Post-metadata saving |
 | **37 Booru sites** | Originals on supported engines (subject to site access) | Supported post videos/animations | Inline `✈` + auto-parsed `Source:` & author |
 | **TikTok / Instagram / RedGIFs** | Selected photos (Instagram, RedGIFs) | Selected videos/Reels, RedGIFs player (including separate-audio recovery) | Inline Copy/Save; 12 platforms in Link Previews |
-| **Other HTTP(S) pages** | Image attributes, `srcset`, metadata, and original links | No universal video search | Browser context-menu saving |
+| **Other HTTP(S) pages** | Image attributes, `srcset`, metadata, and original links | Native-resolution PNG video frame capture (`Alt+Shift+S`, context menu; no universal video stream search) | Popup, context menu, and inline button on supported sites |
 
 <details>
 <summary><strong>Folders, filename rules, preview cache &amp; cloud profiles</strong></summary>

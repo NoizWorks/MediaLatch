@@ -7,7 +7,7 @@
 <br>
 
 [![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Установить-e11d48?style=flat-square&labelColor=0f1117&logo=googlechrome&logoColor=ffffff)](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh)
-[![v3.1.3](https://img.shields.io/badge/Release-v3.1.3-6366f1?style=flat-square&labelColor=0f1117)](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.1.3)
+[![v3.2.0](https://img.shields.io/badge/Release-v3.2.0-6366f1?style=flat-square&labelColor=0f1117)](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.2.0)
 [![Chromium 120+](https://img.shields.io/badge/Chromium-120%2B-222738?style=flat-square&labelColor=0f1117&logo=googlechrome&logoColor=cbd5e1)](https://github.com/NoizWorks/MediaLatch)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-222738?style=flat-square&labelColor=0f1117)](docs/PRIVACY.md)
 [![Stars](https://img.shields.io/github/stars/NoizWorks/MediaLatch?style=flat-square&label=Stars&labelColor=0f1117&color=222738)](https://github.com/NoizWorks/MediaLatch/stargazers)
@@ -17,20 +17,20 @@
   <strong>Русский</strong> ·
   <a href="README.en.md">English</a> ·
   <a href="https://noizworks.is-a.dev/ru/medialatch/">Сайт</a> ·
-  <a href="https://github.com/NoizWorks/MediaLatch/releases/tag/v3.1.3">Release Notes v3.1.3</a> ·
+  <a href="https://github.com/NoizWorks/MediaLatch/releases/tag/v3.2.0">Release Notes v3.2.0</a> ·
   <a href="docs/PRIVACY.md">Privacy Policy</a> ·
   <a href="SECURITY.md">Security</a>
 </p>
 
 <p>
-  <strong>MediaLatch</strong> — расширение для Chromium, которое сохраняет оригиналы изображений, видео и GIF по вашим правилам папок, отправляет файлы локально или в облако и помогает готовить публикации для Telegram и VK. Без собственного сервера, телеметрии и сторонних программ.
+  <strong>MediaLatch</strong> — расширение для Chromium, которое сохраняет оригиналы изображений, видео и GIF по вашим правилам папок, захватывает чистые видеокадры в родном разрешении (до 1080p/4K/8K PNG), отправляет файлы локально или в облако и помогает готовить публикации для Telegram и VK. Без собственного сервера, телеметрии и сторонних программ.
 </p>
 
 </div>
 
 ---
 
-## Интерфейс и возможности v3.1.3
+## Интерфейс и возможности v3.2.0
 
 <table>
   <tr>
@@ -40,7 +40,7 @@
       </a>
       <br>
       <strong>Загрузки, галерея и облачные профили</strong><br>
-      Группировка по сайтам (<code>3× / 4× / 5×</code>), встроенный просмотрщик и нативный Popup <code>424×540</code> с ускоренным в <code>~4×</code> поиском. Отдельные правила папок и имён для <code>Local</code>, <code>Google Drive</code>, <code>Яндекс Диска</code>, <code>MEGA</code> и <code>Telegram</code>.
+      Группировка по сайтам (<code>3× / 4× / 5×</code>), встроенный просмотрщик и нативный Popup <code>424×540</code> с ускоренным поиском и быстрыми действиями для видеокадра (<code>Save frame</code>, <code>Copy PNG</code>, отправка в <code>Telegram</code> в 1 клик). Отдельные правила папок и имён для <code>Local</code>, <code>Google Drive</code>, <code>Яндекс Диска</code>, <code>MEGA</code> и <code>Telegram</code>.
     </td>
     <td width="50%" valign="top">
       <a href="https://noizworks.is-a.dev/medialatch/assets/hero-posts.webp">
@@ -57,16 +57,16 @@
         <img src="https://noizworks.is-a.dev/medialatch/assets/hero-inline.webp" width="100%" alt="Монолитный 2×2 inline-док, Micro-HUD, поиск оригинала и статистика Activity & Volume">
       </a>
       <br>
-      <strong>Inline-док 2×2, поиск оригинала и статистика</strong><br>
-      Монолитный док (<code>MP4 | GIF | ☁</code> + <code>✈</code>) и Micro-HUD с закрытием по <code>Escape</code>. «Найти оригинал» (локально + Google Lens, Яндекс Картинки, SauceNAO, IQDB) и персистентный график <code>Activity &amp; Volume</code> в IndexedDB.
+      <strong>Inline-док 2×2, захват кадра и поиск оригинала</strong><br>
+      Монолитный док (<code>MP4 | GIF | ☁</code> + <code>✈</code>), Micro-HUD по <code>Escape</code> и захват видеокадра в родном разрешении (до 1080p/4K/8K PNG без интерфейса плеера через <code>OffscreenCanvas</code>, хоткей <code>Alt+Shift+S</code> включая фуллскрин, контекстное меню и inline-кнопка на поддерживаемых сайтах — с <code>0</code> новых разрешений браузера). «Найти оригинал» и график <code>Activity &amp; Volume</code> в IndexedDB.
     </td>
     <td width="50%" valign="top">
       <a href="https://noizworks.is-a.dev/medialatch/assets/hero-themes.webp">
         <img src="https://noizworks.is-a.dev/medialatch/assets/hero-themes.webp" width="100%" alt="Четыре темы оформления MediaLatch: Obsidian, Sakura, Dark и Light">
       </a>
       <br>
-      <strong>4 темы и 7 языков</strong><br>
-      <code>Obsidian</code>, <code>Sakura</code>, <code>Dark</code> и <code>Light</code> с полноценной клавиатурной навигацией и поддержкой <code>prefers-reduced-motion</code>. Интерфейс на <code>RU</code>, <code>EN</code>, <code>ES</code>, <code>JA</code>, <code>KO</code>, <code>PT-BR</code> и <code>ZH-CN</code>.
+      <strong>Welcome / Quick Start, 4 темы и 7 языков</strong><br>
+      Обновлённый экран приветствия (Welcome / Quick Start) с живым переключателем тем <code>Obsidian</code>, <code>Sakura</code>, <code>Dark</code> и <code>Light</code> и быстрой настройкой места сохранения. Клавиатурная навигация, <code>prefers-reduced-motion</code> и интерфейс на <code>RU</code>, <code>EN</code>, <code>ES</code>, <code>JA</code>, <code>KO</code>, <code>PT-BR</code> и <code>ZH-CN</code>.
     </td>
   </tr>
 </table>
@@ -99,7 +99,7 @@ MediaLatch находит оригинал выбранного медиа, пр
 | **Sankaku Complex** (`sankakucomplex.com` / `sankaku.app`) | Оригиналы выбранного поста | Прямые MP4-оригиналы | Сохранение по метаданным поста |
 | **37 Booru-сайтов** | Оригиналы поддерживаемых движков (с учётом доступа сайта) | Поддерживаемые видео/анимации постов | Кнопка `✈` + автопарсинг `Source:` и автора |
 | **TikTok / Instagram / RedGIFs** | Выбранные фото (Instagram, RedGIFs) | Выбранные видео/Reels, плеер RedGIFs (включая отдельную дорожку звука) | Inline Copy/Save; 12 платформ в Link Previews |
-| **Другие HTTP(S)-страницы** | Атрибуты, `srcset`, метаданные и ссылки на оригинал | Универсального поиска видео нет | Сохранение из контекстного меню браузера |
+| **Другие HTTP(S)-страницы** | Атрибуты, `srcset`, метаданные и ссылки на оригинал | Захват видеокадра в родном разрешении PNG (`Alt+Shift+S`, контекстное меню; универсального поиска потокового видео нет) | Popup, контекстное меню и inline-кнопка на поддерживаемых сайтах |
 
 <details>
 <summary><strong>Папки, правила имён, кэш превью и облачные профили</strong></summary>
