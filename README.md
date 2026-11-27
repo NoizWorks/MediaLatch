@@ -7,7 +7,7 @@
 <br>
 
 [![Chrome Web Store](https://img.shields.io/badge/Chrome_Web_Store-Установить-e11d48?style=flat-square&labelColor=0f1117&logo=googlechrome&logoColor=ffffff)](https://chromewebstore.google.com/detail/medialatch/cimghidldpjhhhngdhigddjfpcofhbmh)
-[![v3.2.0](https://img.shields.io/badge/Release-v3.2.0-6366f1?style=flat-square&labelColor=0f1117)](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.2.0)
+[![v3.2.1](https://img.shields.io/badge/Release-v3.2.1-6366f1?style=flat-square&labelColor=0f1117)](https://github.com/NoizWorks/MediaLatch/releases/tag/v3.2.1)
 [![Chromium 120+](https://img.shields.io/badge/Chromium-120%2B-222738?style=flat-square&labelColor=0f1117&logo=googlechrome&logoColor=cbd5e1)](https://github.com/NoizWorks/MediaLatch)
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-222738?style=flat-square&labelColor=0f1117)](docs/PRIVACY.md)
 [![Stars](https://img.shields.io/github/stars/NoizWorks/MediaLatch?style=flat-square&label=Stars&labelColor=0f1117&color=222738)](https://github.com/NoizWorks/MediaLatch/stargazers)
@@ -17,7 +17,7 @@
   <strong>Русский</strong> ·
   <a href="README.en.md">English</a> ·
   <a href="https://noizworks.is-a.dev/ru/medialatch/">Сайт</a> ·
-  <a href="https://github.com/NoizWorks/MediaLatch/releases/tag/v3.2.0">Release Notes v3.2.0</a> ·
+  <a href="https://github.com/NoizWorks/MediaLatch/releases/tag/v3.2.1">Release Notes v3.2.1</a> ·
   <a href="docs/PRIVACY.md">Privacy Policy</a> ·
   <a href="SECURITY.md">Security</a>
 </p>
@@ -30,7 +30,7 @@
 
 ---
 
-## Интерфейс и возможности v3.2.0
+## Интерфейс и возможности v3.2.1
 
 <table>
   <tr>
